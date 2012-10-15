@@ -1,0 +1,4 @@
+*** Laboratory Changelog ***
+
+2012.09.21 - version 1.0.0
+ * First release!
