@@ -8,7 +8,7 @@ Stable tag: 1.0.0
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-Laboratory is powerfull plugin of feature collection by ColorLabs & Company, to make your website more powerfull.
+Laboratory is powerful plugin of feature collection by ColorLabs & Company, to make your website more powerful.
 
 == Description ==
 
