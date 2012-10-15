@@ -28,7 +28,7 @@ Upload the Laboratory plugin to your site, Activate it, then activate all option
 
 = Will Laboratory work with X theme? =
 
-Laboratory will, in theory, work with any theme. Certain parts may need to be styled using CSS in order to match the theme's look. We've added a default styling Twenty Ten (the WordPress default theme).
+Laboratory will, in theory, work with any theme. Certain parts may need to be styled using CSS in order to match the theme's look. We've added a default styling for Twenty Ten (the WordPress default theme).
 
 
 == Screenshots ==
