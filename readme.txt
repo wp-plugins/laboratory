@@ -1,4 +1,4 @@
-=== Laboratory - Plugin by ColorLabs & Company ===
+=== Laboratory by ColorLabs & Company ===
 Contributors: colorlabs
 Donate link: paypal@colorlabsproject.com
 Tags: laboratory, widget, css, shortlink, tab, slider, social
