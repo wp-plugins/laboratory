@@ -8,7 +8,7 @@ Stable tag: 1.0.0
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-Laboratory is powerful plugin of feature collection by ColorLabs & Company, to make your website more powerful.
+Power up your WordPress site with Laboratory, an all-in-one solution for better site customization, content management and social network integration.
 
 == Description ==
 
@@ -28,7 +28,7 @@ Upload the Laboratory plugin to your site, Activate it, then activate all option
 
 = Will Laboratory work with X theme? =
 
-Laboratory will in theory work with any theme, but of course, certain parts may need to be styled using CSS to make them match up. We've added default styling for Twenty Ten (the WordPress default theme).
+Laboratory will, in theory, work with any theme. Certain parts may need to be styled using CSS in order to match the theme's look. We've added a default styling Twenty Ten (the WordPress default theme).
 
 
 == Screenshots ==
