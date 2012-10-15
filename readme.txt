@@ -26,21 +26,15 @@ Upload the Laboratory plugin to your site, Activate it, then activate all option
 
 == Frequently Asked Questions ==
 
-= A question that someone might have =
+= Will Laboratory work with X theme? =
 
-An answer to that question.
+Laboratory will in theory work with any theme, but of course, certain parts may need to be styled using CSS to make them match up. We've added default styling for Twenty Ten (the WordPress default theme).
 
-= What about foo bar? =
-
-Answer to foo bar dilemma.
 
 == Screenshots ==
 
-1. This screen shot description corresponds to screenshot-1.(png|jpg|jpeg|gif). Note that the screenshot is taken from
-the /assets directory or the directory that contains the stable readme.txt (tags or trunk). Screenshots in the /assets 
-directory take precedence. For example, `/assets/screenshot-1.png` would win over `/tags/4.3/screenshot-1.png` 
-(or jpg, jpeg, gif).
-2. This is the second screen shot
+1. Dashboard of Laboratory.
+2. Addon option after activated the addon.
 
 == Changelog ==
 
