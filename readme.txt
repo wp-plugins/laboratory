@@ -18,7 +18,7 @@ All modules work independently so you can activate the ones you want to use and 
 
 Laboratory works with all themes.
 
-<div class="video"><iframe src="http://player.vimeo.com/video/51659911?title=1&amp;byline=1&amp;portrait=1" width="532" height="299" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+[vimeo http://vimeo.com/51659911]
 
 == Installation ==
 
