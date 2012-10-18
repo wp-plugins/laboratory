@@ -8,7 +8,7 @@ Stable tag: 1.0.0
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-Power up your WordPress site with Laboratory, an all-in-one solution for easier site customization, better content management and social network integration.
+Power up your WordPress site with Laboratory, an all-in-one solution for easier content management, site customization and social network integration.
 
 == Description ==
 
