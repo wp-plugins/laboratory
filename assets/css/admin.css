@@ -102,7 +102,8 @@ html {
   bottom: 70px
 }
 .laboratory-menu li {
-  margin: 0
+  margin: 0;
+  width: 295px;
 }
 .laboratory-menu a {
   display: block;
