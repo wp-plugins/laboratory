@@ -3,7 +3,7 @@ Contributors: colorlabs
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=paypal@colorlabsproject.com&item_name=Donation+for+Laboratory
 Tags: laboratory, widget, css, shortlink, tab, slider, social, links, post, twitter, images, login, menu
 Requires at least: 3.3
-Tested up to: 3.4.2
+Tested up to: WordPress 3.4.2
 Stable tag: 1.0.0
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
