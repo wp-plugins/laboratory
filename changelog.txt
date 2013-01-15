@@ -1,4 +1,7 @@
 *** Laboratory Changelog ***
 
+2013.01.15 - version 1.0.1
+ * added Facebook Comments add-on
+
 2012.09.21 - version 1.0.0
  * First release!
