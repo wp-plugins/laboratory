@@ -1,5 +1,8 @@
 *** Laboratory Changelog ***
 
+2013.08.19 - version 1.0.2
+ * added Contact forms add-on
+
 2013.01.15 - version 1.0.1
  * added Facebook Comments add-on
 
