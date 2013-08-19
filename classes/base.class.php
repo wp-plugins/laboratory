@@ -47,6 +47,9 @@ class Laboratory_Base {
 	var $name;
 	var $token;
 	
+	var $downloads_path;
+	var $downloads_url;
+	
 	var $plugin_path;
 	var $plugin_url;
 	
