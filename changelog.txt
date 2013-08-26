@@ -1,0 +1,13 @@
+*** Laboratory Changelog ***
+
+2013.08.26 - version 1.0.3
+ * added Mailchimp widget add-on
+
+2013.08.15 - version 1.0.2
+ * added Contact forms add-on
+
+2013.01.15 - version 1.0.1
+ * added Facebook Comments add-on
+
+2012.09.21 - version 1.0.0
+ * First release!

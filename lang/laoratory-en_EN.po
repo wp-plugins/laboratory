@@ -1,0 +1,1348 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Laboratory\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-09-20 14:12+0700\n"
+"PO-Revision-Date: 2012-09-20 14:12+0700\n"
+"Last-Translator: admin <admin@mail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: C:\\xampp\\htdocs\\mywp\\wp-content\\plugins\\laboratory\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: addon/laboratory-custom-code/classes/laboratory-custom-code.class.php:86
+#: addon/laboratory-custom-code/classes/laboratory-custom-code.class.php:87
+msgid "Custom CSS/HTMLs"
+msgstr ""
+
+#: addon/laboratory-custom-code/classes/laboratory-custom-code.class.php:89
+#: addon/laboratory-custom-code/classes/laboratory-custom-code.class.php:90
+#: addon/laboratory-custom-code/classes/settings.class.php:51
+msgid "Custom CSS"
+msgstr ""
+
+#: addon/laboratory-custom-code/classes/settings.class.php:52
+msgid "Add custom CSS code to your website."
+msgstr ""
+
+#: addon/laboratory-custom-code/classes/settings.class.php:57
+msgid "Custom HTML"
+msgstr ""
+
+#: addon/laboratory-custom-code/classes/settings.class.php:58
+msgid "Add custom HTML code to the &lt;head&gt; section or before the closing &lt;/body&gt; tag on your website."
+msgstr ""
+
+#: addon/laboratory-custom-code/classes/settings.class.php:78
+msgid "Enable Custom CSS"
+msgstr ""
+
+#: addon/laboratory-custom-code/classes/settings.class.php:79
+msgid "Output the custom CSS code on your website."
+msgstr ""
+
+#: addon/laboratory-custom-code/classes/settings.class.php:87
+msgid "Custom CSS Code"
+msgstr ""
+
+#: addon/laboratory-custom-code/classes/settings.class.php:88
+msgid "Output this custom CSS code on your website."
+msgstr ""
+
+#: addon/laboratory-custom-code/classes/settings.class.php:99
+msgid "Enable Custom HTML"
+msgstr ""
+
+#: addon/laboratory-custom-code/classes/settings.class.php:100
+msgid "Output the custom HTML code on your website."
+msgstr ""
+
+#: addon/laboratory-custom-code/classes/settings.class.php:108
+msgid "Inside the &lt;head&gt; Tags"
+msgstr ""
+
+#: addon/laboratory-custom-code/classes/settings.class.php:109
+msgid "Output custom HTML code inside the &lt;head&gt; tags of your website (JavaScript is not permitted)."
+msgstr ""
+
+#: addon/laboratory-custom-code/classes/settings.class.php:119
+msgid "Before the closing &lt;/body&gt; Tag"
+msgstr ""
+
+#: addon/laboratory-custom-code/classes/settings.class.php:120
+msgid "Output custom HTML code before the closing &lt;/body&gt; tag of your website (JavaScript is not permitted)."
+msgstr ""
+
+#: addon/laboratory-custom-menus/classes/custom-menus.class.php:77
+msgid "Custom Menus"
+msgstr ""
+
+#: addon/laboratory-custom-menus/classes/custom-menus.class.php:127
+msgid "Your theme doesn't seem to have any pre-defined menu locations. :("
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-admin.php:71
+msgid "Laboratory Slide"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-admin.php:96
+#: addon/laboratory-custom-slider/classes/class-custom-slider-admin.php:104
+msgid "Insert Slideshow"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-admin.php:98
+msgid "Advanced Settings"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-admin.php:100
+msgid "Optionally override the default slideshow settings using the fields below."
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-admin.php:164
+msgid "Slideshow Type"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-admin.php:172
+msgid "The type of slideshow to insert"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-admin.php:380
+msgid "Number of Images"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-admin.php:380
+msgid "The maximum number of images to display"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-admin.php:381
+#: addon/laboratory-custom-slider/classes/class-custom-slider-admin.php:416
+#: addon/laboratory-custom-slider/classes/class-custom-slider-admin.php:490
+msgid "Use thumbnails for Pagination"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-admin.php:381
+msgid "Use thumbnails for pagination, instead of \"dot\" indicators"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-admin.php:414
+msgid "Number of Slides"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-admin.php:414
+msgid "The maximum number of slides to display"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-admin.php:415
+msgid "Slide Pages"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-admin.php:415
+msgid "The slide pages from which to display slides"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-admin.php:416
+#: addon/laboratory-custom-slider/classes/class-custom-slider-admin.php:490
+msgid "Use thumbnails for pagination, instead of \"dot\" indicators (uses featured image)"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-admin.php:475
+msgid "None"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-admin.php:475
+msgid "Full"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-admin.php:475
+msgid "Natural"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-admin.php:489
+msgid "Number of Posts"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-admin.php:489
+msgid "The maximum number of posts to display"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-admin.php:491
+msgid "Link the post title to it's post"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-admin.php:491
+msgid "Link the post title to it's single post screen"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-admin.php:492
+msgid "Display the post's excerpt"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-admin.php:492
+msgid "Display the post's excerpt on each slide"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-admin.php:493
+msgid "Layout"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-admin.php:493
+msgid "The layout to use when displaying posts"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-admin.php:494
+msgid "Overlay"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-admin.php:494
+msgid "The type of overlay to use when displaying the post text"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-admin.php:495
+msgid "Categories"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-admin.php:495
+msgid "The categories from which to display posts"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-admin.php:496
+msgid "Tags"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-admin.php:496
+msgid "The tags from which to display posts"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-frontend.php:180
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:148
+msgid "Previous"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-frontend.php:181
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:156
+msgid "Next"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-frontend.php:182
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:164
+msgid "Play"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-frontend.php:183
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:172
+msgid "Pause"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-posttypes.php:91
+msgid "Search Slide Groups"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-posttypes.php:92
+msgid "All Slide Groups"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-posttypes.php:93
+msgid "Parent Slide Group"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-posttypes.php:94
+msgid "Parent Slide Group:"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-posttypes.php:95
+msgid "Edit Slide Group"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-posttypes.php:96
+msgid "Update Slide Group"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-posttypes.php:97
+msgid "Add New Slide Group"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-posttypes.php:98
+msgid "New Slide Group Name"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-posttypes.php:99
+msgid "Slide Groups"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-posttypes.php:121
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:110
+msgid "Slide"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-posttypes.php:121
+#: addon/laboratory-custom-slider/classes/class-custom-slider-utils.php:30
+msgid "Slides"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-posttypes.php:121
+msgid "Slideshows"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-posttypes.php:138
+#, php-format
+msgid "Add New %s"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-posttypes.php:139
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-posttypes.php:140
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-posttypes.php:141
+#, php-format
+msgid "All %s"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-posttypes.php:142
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-posttypes.php:143
+#, php-format
+msgid "Search %s"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-posttypes.php:144
+#, php-format
+msgid "No %s found"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-posttypes.php:145
+#, php-format
+msgid "No %s found in Trash"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-posttypes.php:180
+#: addon/laboratory-custom-slider/classes/class-custom-slider-posttypes.php:183
+#, php-format
+msgid "%s updated."
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-posttypes.php:181
+msgid "Custom field updated."
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-posttypes.php:182
+msgid "Custom field deleted."
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-posttypes.php:185
+#, php-format
+msgid "%2$s restored to revision from %1$s"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-posttypes.php:186
+#, php-format
+msgid "%2$s published."
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-posttypes.php:187
+#, php-format
+msgid "%s saved."
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-posttypes.php:188
+#, php-format
+msgid "%2$s submitted."
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-posttypes.php:189
+#, php-format
+msgid "%s scheduled for: <strong>%1$s</strong>."
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-posttypes.php:191
+msgid " M j, Y @ G:i"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-posttypes.php:192
+#, php-format
+msgid "%s draft updated."
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-posttypes.php:216
+msgid "Enter a title for this slide here"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-posttypes.php:260
+msgid "No Slide Groups Specified"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings-api.php:129
+msgid "Override init_sections() in your class."
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings-api.php:140
+msgid "Override init_fields() in your class."
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings-api.php:159
+msgid "All"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings-api.php:786
+#, php-format
+msgid "%s is a required field"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings-api.php:797
+#, php-format
+msgid "%s updated"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:72
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:311
+msgid "General Settings"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:73
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:313
+msgid "Settings to apply to all slideshows, unless overridden."
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:77
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:324
+msgid "Control Settings"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:78
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:326
+msgid "Customise the ways in which slideshows can be controlled."
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:82
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:344
+msgid "Button Settings"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:83
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:346
+msgid "Customise the texts of the various slideshow buttons."
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:104
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:315
+msgid "Animation"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:105
+msgid "The slider animation"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:110
+msgid "Fade"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:114
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:316
+msgid "Slide Direction"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:115
+msgid "The direction to slide (if using the \"Slide\" animation)"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:120
+msgid "Horizontal"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:120
+msgid "Vertical"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:124
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:317
+msgid "Slideshow Speed"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:125
+msgid "Set the delay between each slide animation (in seconds)"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:134
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:318
+msgid "Animation Speed"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:135
+msgid "Set the duration of each slide animation (in seconds)"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:145
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:348
+msgid "\"Previous\" Link Text"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:146
+msgid "The text to display on the \"Previous\" button."
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:153
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:349
+msgid "\"Next\" Link Text"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:154
+msgid "The text to display on the \"Next\" button."
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:161
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:350
+msgid "\"Play\" Button Text"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:162
+msgid "The text to display on the \"Play\" button."
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:169
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:351
+msgid "\"Pause\" Button Text"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:170
+msgid "The text to display on the \"Pause\" button."
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:179
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:328
+msgid "Animate the slideshows automatically"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:187
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:329
+msgid "Adjust the height of the slideshow to the height of the current slide"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:195
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:330
+msgid "Display the \"Previous/Next\" navigation"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:203
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:331
+msgid "Display the slideshow pagination"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:211
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:332
+msgid "Enable keyboard navigation"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:219
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:333
+msgid "Enable the mousewheel navigation"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:227
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:334
+msgid "Enable the \"Play/Pause\" event"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:235
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:335
+msgid "Randomize the order of slides in slideshows"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:243
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:336
+msgid "Loop the slideshow animations"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:251
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:337
+msgid "Pause the slideshow autoplay when using the pagination or \"Previous/Next\" navigation"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:259
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:338
+msgid "Pause the slideshow autoplay when hovering over a slide"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:304
+msgid "Overview"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:306
+msgid "This screen contains all the default settings for your slideshows created by CustomSlider (animation duration, speeds, display of slideshow controls, etc). Anything set here will apply to all CustomSlider slideshows, unless overridden by a slideshow."
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:315
+msgid "The default animation to use for your slideshows (\"slide\" or \"fade\")."
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:316
+msgid "Slide the slideshows either vertically or horizontally (works only with the \"slide\" animation)."
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:316
+msgid "NOTE: When sliding vertically, all slides need to have the same height."
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:317
+msgid "The delay between each slide animation (in seconds)."
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:318
+msgid "The duration of each slide animation (in seconds)."
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:328
+msgid "Whether or not to automatically animate between the slides (the alternative is to slide only when using the controls)."
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:329
+msgid "Alternatively, the slideshow will take the height from it's tallest slide."
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:330
+msgid "Show/hide the \"Previous\" and \"Next\" button controls."
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:331
+msgid "Show/hide the pagination bar below the slideshow."
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:332
+msgid "Enable navigation of this slideshow via the \"left\" and \"right\" arrow keys on the viewer's computer keyboard."
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:333
+msgid "Enable navigation of this slideshow via the viewer's computer mousewheel."
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:334
+msgid "Show/hide the \"Play/Pause\" button below the slideshow for pausing and resuming the automated slideshow."
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:335
+msgid "Display the slides in the slideshow in a random order."
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:336
+msgid "When arriving at the end of the slideshow, carry on sliding from the first slide, indefinitely."
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:337
+msgid "Pause the slideshow automation when the viewer decides to navigate using the manual controls."
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:338
+msgid "Pause the slideshow automation when the viewer hovers over the slideshow."
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:348
+msgid "The text for the \"Previous\" button."
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:349
+msgid "The text for the \"Next\" button."
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:350
+msgid "The text for the \"Play\" button."
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:351
+msgid "The text for the \"Pause\" button."
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:356
+msgid "For more information:"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:357
+msgid "Support Desk"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-utils.php:29
+msgid "Attached Images"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-utils.php:31
+msgid "Posts"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-utils.php:43
+msgid "Text Left"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-utils.php:44
+msgid "Text Right"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-utils.php:45
+msgid "Text Top"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider-utils.php:46
+msgid "Text Bottom"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-custom-slider.php:68
+#: addon/laboratory-custom-slider/classes/class-custom-slider.php:69
+msgid "Custom Slider"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-laboratory-plugin-updater.php:147
+msgid "ColorLabs Updates"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-laboratory-plugin-updater.php:167
+msgid "ColorLabs Plugin Updater"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-laboratory-plugin-updater.php:174
+msgid "ColorLabs Username"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-laboratory-plugin-updater.php:178
+msgid "ColorLabs Password"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-laboratory-plugin-updater.php:187
+msgid "Login"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-laboratory-plugin-updater.php:238
+msgid "Switch ColorLabs Account"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-laboratory-plugin-updater.php:240
+#, php-format
+msgid "You are currently logged in as %1$s. To switch to a different ColorLabs account, please fill in the login details below."
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-laboratory-plugin-updater.php:243
+msgid "Update your Plugins"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-laboratory-plugin-updater.php:250
+msgid "Login Error"
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-laboratory-plugin-updater.php:252
+msgid "The login details supplied are invalid. Please try again."
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-laboratory-plugin-updater.php:262
+msgid "Enable ColorLabs Plugin Updates."
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-laboratory-plugin-updater.php:264
+#, php-format
+msgid "Please <a href=\"%1$s\">login</a> to enable automatic plugin updates."
+msgstr ""
+
+#: addon/laboratory-custom-slider/classes/class-laboratory-plugin-updater.php:277
+msgid "Hide This Message"
+msgstr ""
+
+#: addon/laboratory-custom-slider/widgets/widget-custom-slider-attachments.php:31
+msgid "A slideshow of the images attached to the current page/post"
+msgstr ""
+
+#: addon/laboratory-custom-slider/widgets/widget-custom-slider-attachments.php:33
+msgid "Laboratory Attached Images Slide"
+msgstr ""
+
+#: addon/laboratory-custom-slider/widgets/widget-custom-slider-attachments.php:38
+msgid "Images"
+msgstr ""
+
+#: addon/laboratory-custom-slider/widgets/widget-custom-slider-base.php:45
+msgid "A slideshow of the content on your site"
+msgstr ""
+
+#: addon/laboratory-custom-slider/widgets/widget-custom-slider-base.php:47
+msgid "Laboratory Slideshow"
+msgstr ""
+
+#: addon/laboratory-custom-slider/widgets/widget-custom-slider-base.php:254
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-instagram-profile.php:235
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-instagram.php:260
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-tweets.php:204
+msgid "Title (optional):"
+msgstr ""
+
+#: addon/laboratory-custom-slider/widgets/widget-custom-slider-base.php:276
+msgid "Customise Advanced Settings"
+msgstr ""
+
+#: addon/laboratory-custom-slider/widgets/widget-custom-slider-base.php:278
+msgid "Save the widget settings with this checkbox checked to customise slideshow settings."
+msgstr ""
+
+#: addon/laboratory-custom-slider/widgets/widget-custom-slider-posts.php:31
+msgid "A slideshow of posts on your site"
+msgstr ""
+
+#: addon/laboratory-custom-slider/widgets/widget-custom-slider-posts.php:33
+msgid "Laboratory Posts Slide"
+msgstr ""
+
+#: addon/laboratory-custom-slider/widgets/widget-custom-slider-slides.php:31
+msgid "A slideshow of slides on your site"
+msgstr ""
+
+#: addon/laboratory-custom-slider/widgets/widget-custom-slider-slides.php:33
+msgid "Laboratory Slides Slideshow"
+msgstr ""
+
+#: addon/laboratory-login-branding/classes/laboratory-login-branding.class.php:65
+#: addon/laboratory-login-branding/classes/laboratory-login-branding.class.php:66
+msgid "Custom Login"
+msgstr ""
+
+#: addon/laboratory-login-branding/classes/settings.class.php:48
+msgid "General login branding settings. If you do not wish to use a specific option, leave the setting blank to disable."
+msgstr ""
+
+#: addon/laboratory-login-branding/classes/settings.class.php:65
+msgid "Logo URL"
+msgstr ""
+
+#: addon/laboratory-login-branding/classes/settings.class.php:66
+msgid "Change the logo image for the WordPress login page. This is the URL of your logo."
+msgstr ""
+
+#: addon/laboratory-login-branding/classes/settings.class.php:74
+msgid "Title Text"
+msgstr ""
+
+#: addon/laboratory-login-branding/classes/settings.class.php:75
+msgid "Change the title of the logo image on the WordPress login page."
+msgstr ""
+
+#: addon/laboratory-login-branding/classes/settings.class.php:82
+msgid "Logo Image URL"
+msgstr ""
+
+#: addon/laboratory-login-branding/classes/settings.class.php:83
+msgid "Change the URL that the logo image on the WordPress login page links to when clicked on."
+msgstr ""
+
+#: addon/laboratory-shortlinks/classes/laboratory-shortlinks.class.php:49
+#: addon/laboratory-shortlinks/classes/laboratory-shortlinks.class.php:50
+#: addon/laboratory-shortlinks/classes/laboratory-shortlinks.class.php:75
+#: addon/laboratory-shortlinks/classes/laboratory-shortlinks.class.php:76
+msgid "ShortLinks"
+msgstr ""
+
+#: addon/laboratory-shortlinks/classes/settings.class.php:47
+msgid "Main Settings"
+msgstr ""
+
+#: addon/laboratory-shortlinks/classes/settings.class.php:48
+msgid "Main settings and configuration"
+msgstr ""
+
+#: addon/laboratory-shortlinks/classes/settings.class.php:51
+msgid "Bitly Setup"
+msgstr ""
+
+#: addon/laboratory-shortlinks/classes/settings.class.php:52
+msgid "Settings and configuration for Bitly"
+msgstr ""
+
+#: addon/laboratory-shortlinks/classes/settings.class.php:73
+msgid "Service Select"
+msgstr ""
+
+#: addon/laboratory-shortlinks/classes/settings.class.php:74
+msgid "Select the service to use for generating a short url."
+msgstr ""
+
+#: addon/laboratory-shortlinks/classes/settings.class.php:83
+msgid "Bitly Username"
+msgstr ""
+
+#: addon/laboratory-shortlinks/classes/settings.class.php:84
+msgid "Enter your Bitly username."
+msgstr ""
+
+#: addon/laboratory-shortlinks/classes/settings.class.php:92
+msgid "Bitly API Key"
+msgstr ""
+
+#: addon/laboratory-shortlinks/classes/settings.class.php:93
+msgid "Enter your Bitly API Key."
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-instagram-profile.php:66
+msgid "This is a Laboratory bundled Instagram profile widget."
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-instagram-profile.php:68
+msgid "Laboratory - Instagram Profile"
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-instagram-profile.php:210
+msgid "Instagram Profile"
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-instagram-profile.php:243
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-instagram.php:268
+msgid "Username (required):"
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-instagram-profile.php:248
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-instagram.php:273
+msgid "Password (required):"
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-instagram-profile.php:262
+msgid "Avatar Alignment:"
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-instagram-profile.php:264
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-instagram.php:297
+msgid "Left"
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-instagram-profile.php:265
+msgid "Centre"
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-instagram-profile.php:266
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-instagram.php:298
+msgid "Right"
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-instagram-profile.php:277
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-instagram.php:328
+#, php-format
+msgid "Currently logged in as %s."
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-instagram-profile.php:282
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-instagram.php:333
+msgid "Logout?"
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-instagram-profile.php:470
+msgid "Media"
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-instagram-profile.php:474
+msgid "Followed By"
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-instagram-profile.php:478
+msgid "Follows"
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-instagram-profile.php:499
+msgid "Display Avatar"
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-instagram-profile.php:500
+msgid "Display Name"
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-instagram-profile.php:501
+msgid "Display Screen Name"
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-instagram-profile.php:502
+msgid "Display Description"
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-instagram-profile.php:503
+msgid "Display Website"
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-instagram-profile.php:504
+msgid "Display Media Count"
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-instagram-profile.php:505
+msgid "Display Followed By Count"
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-instagram-profile.php:506
+msgid "Display Follows Count"
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-instagram.php:71
+msgid "This is a Laboratory bundled Instagram stream widget."
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-instagram.php:73
+msgid "Laboratory - Instagram"
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-instagram.php:238
+msgid "Instagram"
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-instagram.php:289
+msgid "Limit (default: 5):"
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-instagram.php:294
+msgid "Float Images:"
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-instagram.php:303
+msgid "Image Size:"
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-instagram.php:305
+msgid "Thumbnail (150x150)"
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-instagram.php:306
+msgid "Low Resolution (306x306)"
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-instagram.php:307
+msgid "Standard Resolution (612x612)"
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-instagram.php:312
+msgid "Custom Image Size (max: 612):"
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-instagram.php:313
+msgid "px"
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-instagram.php:323
+msgid "Requires the \"Link to full size image\" option"
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-instagram.php:522
+#, php-format
+msgid "Instagram by %s"
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-instagram.php:562
+msgid "Link to full size image"
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-instagram.php:563
+msgid "Enable thickbox"
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-pinterest.php:54
+msgid "This is a Laboratory bundled pinterest widget."
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-pinterest.php:56
+msgid "Laboratory - Pinterest"
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-pinterest.php:154
+msgid "Follow me on"
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-pinterest.php:213
+msgid "Title:"
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-pinterest.php:217
+msgid "Pinterest Username:"
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-pinterest.php:221
+msgid "Specific Board (optional):"
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-pinterest.php:225
+msgid "Number of Pins To Show:"
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-pinterest.php:236
+msgid "Show Caption?:"
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-pinterest.php:240
+msgid "Show \"Follow Me\" Button?:"
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-tweets.php:54
+msgid "This is a Laboratory bundled tweets widget."
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-tweets.php:56
+msgid "Laboratory - Tweets"
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-tweets.php:125
+msgid "ago"
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-tweets.php:132
+#, php-format
+msgid "Follow %s on Twitter"
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-tweets.php:189
+msgid "Tweets"
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-tweets.php:209
+msgid "Twitter Username (required):"
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-tweets.php:214
+msgid "Limit:"
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-tweets.php:220
+msgid "Include Retweets"
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-tweets.php:225
+msgid "Exclude Replies"
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-tweets.php:230
+msgid "Include Follow Link"
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-twitter-profile.php:57
+msgid "This is a Laboratory bundled Twitter profile widget."
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-twitter-profile.php:59
+msgid "Laboratory - Twitter Profile"
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-twitter-profile.php:176
+msgid "friends"
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-twitter-profile.php:180
+msgid "followers"
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-twitter-profile.php:184
+msgid "tweets"
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-twitter-profile.php:192
+msgid "Tweeting since"
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-twitter-profile.php:256
+msgid "Twitter Profile"
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-twitter-profile.php:377
+msgid "Display Location"
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-twitter-profile.php:378
+msgid "Display Tweet Count"
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-twitter-profile.php:379
+msgid "Display Followers Count"
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-twitter-profile.php:380
+msgid "Display Friends Count"
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-twitter-profile.php:381
+msgid "Display \"Tweeting Since\""
+msgstr ""
+
+#: addon/laboratory-social-widgets/widgets/widget-laboratory-twitter-profile.php:382
+msgid "Include \"Follow\" Link"
+msgstr ""
+
+#: addon/laboratory-tabs/classes/widget-laboratory-tabs.php:59
+msgid "This is a Laboratory addon tabs widget."
+msgstr ""
+
+#: addon/laboratory-tabs/classes/widget-laboratory-tabs.php:61
+msgid "Laboratory - Tabs"
+msgstr ""
+
+#: addon/laboratory-tabs/classes/widget-laboratory-tabs.php:98
+msgid "Latest"
+msgstr ""
+
+#: addon/laboratory-tabs/classes/widget-laboratory-tabs.php:99
+msgid "Popular"
+msgstr ""
+
+#: addon/laboratory-tabs/classes/widget-laboratory-tabs.php:100
+msgid "Comments"
+msgstr ""
+
+#: addon/laboratory-tabs/classes/widget-laboratory-tabs.php:221
+msgid "Tabs"
+msgstr ""
+
+#: addon/laboratory-tabs/classes/widget-laboratory-tabs.php:240
+msgid "Tab Position:"
+msgstr ""
+
+#: addon/laboratory-tabs/classes/widget-laboratory-tabs.php:242
+msgid "Above"
+msgstr ""
+
+#: addon/laboratory-tabs/classes/widget-laboratory-tabs.php:243
+msgid "Below"
+msgstr ""
+
+#: addon/laboratory-tabs/classes/widget-laboratory-tabs.php:255
+msgid "Image Dimension:"
+msgstr ""
+
+#: addon/laboratory-tabs/classes/widget-laboratory-tabs.php:260
+msgid "Image Alignment:"
+msgstr ""
+
+#: addon/laboratory-tabs/classes/widget-laboratory-tabs.php:268
+msgid "laboratory_image() will be used to display thumbnails."
+msgstr ""
+
+#: addon/laboratory-tabs/classes/widget-laboratory-tabs.php:271
+msgid "The \"featured image\" will be used as thumbnails."
+msgstr ""
+
+#: addon/laboratory-tabs/classes/widget-laboratory-tabs.php:273
+msgid "Post thumbnails are not supported by your theme. Thumbnails will not be displayed."
+msgstr ""
+
+#: addon/laboratory-tabs/classes/widget-laboratory-tabs.php:392
+msgid "on"
+msgstr ""
+
+#: classes/base.class.php:77
+msgid "Laboratory"
+msgstr ""
+
+#: classes/model.class.php:111
+msgid "Disabled"
+msgstr ""
+
+#: classes/model.class.php:114
+msgid "Enabled"
+msgstr ""
+
+#: classes/model.class.php:391
+msgid "Message:"
+msgstr ""
+
+#: classes/settings-api.class.php:568
+msgid "Default colour:"
+msgstr ""
+
+#: classes/settings-api.class.php:843
+#, php-format
+msgid "%s settings updated"
+msgstr ""
+
+#: classes/settings-api.class.php:941
+#, php-format
+msgid "%1$s%2$s, %3$s @ %4$s : %5$s"
+msgstr ""
+
+#: classes/utils.class.php:35
+msgid "Deactivate"
+msgstr ""
+
+#: classes/utils.class.php:36
+msgid "Activate"
+msgstr ""
+
+#: classes/utils.class.php:37
+msgid "Deactivated"
+msgstr ""
+
+#: classes/utils.class.php:38
+msgid "Activated"
+msgstr ""
+
+#: classes/utils.class.php:39
+#, php-format
+msgid "%s Activated Successfully"
+msgstr ""
+
+#: classes/utils.class.php:40
+#, php-format
+msgid "%s Deactivated Successfully"
+msgstr ""
+
+#: classes/utils.class.php:41
+#, php-format
+msgid "There was an error activating %s"
+msgstr ""
+
+#: classes/utils.class.php:42
+#, php-format
+msgid "There was an error deactivating %s"
+msgstr ""
+
+#: models/main.class.php:50
+msgid "Features"
+msgstr ""
+
+#: models/main.class.php:51
+msgid "Features addon with Laboratory."
+msgstr ""
+
+#: models/main.class.php:105
+#, php-format
+msgid "%s activated successfully."
+msgstr ""
+
+#: models/main.class.php:111
+#, php-format
+msgid "There was an error activating %s. Please try again."
+msgstr ""
+
+#: models/main.class.php:117
+#, php-format
+msgid "%s deactivated successfully."
+msgstr ""
+
+#: models/main.class.php:123
+#, php-format
+msgid "There was an error deactivating %s. Please try again."
+msgstr ""
+
+#: models/main.class.php:199
+msgid "This screen provides an overview of all features available through Laboratory. Features are also enabled and disabled here."
+msgstr ""
+
+#: models/main.class.php:203
+msgid "Addon Features"
+msgstr ""
+
+#: models/main.class.php:205
+msgid "Addon features are immediately available and come packaged with Laboratory."
+msgstr ""
+
+#: models/main.class.php:207
+msgid "Enabling or disabling a addon feature can be done instantly. Simply click the \"Enable\" or \"Disable\" button for the desired feature under the \"Addon Features\" section."
+msgstr ""
+
+#: views/component-item.php:74
+msgid "Settings"
+msgstr ""
+
+#: views/section.php:18
+msgid "Close"
+msgstr ""
+
