@@ -40,6 +40,12 @@ Laboratory will, in theory, work with any theme. Certain parts may need to be st
 
 == Changelog ==
 
+= 1.0.3 =
+Added Mailchimp widget add-on
+
+= 1.0.2 =
+Added Contact forms add-on
+ 
 = 1.0.1 =
 Added Facebook Comments add-on.
 

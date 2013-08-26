@@ -30,7 +30,7 @@ class Laboratory_Utils {
 	 * @since 1.0.0
 	 * @return void
 	 */
-	public function load_common_l10n () {
+	public static function load_common_l10n () {
 		$strings = array(
 						'disable' => __( 'Deactivate', 'laboratory' ), 
 						'enable' => __( 'Activate', 'laboratory' ), 
