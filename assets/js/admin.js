@@ -287,11 +287,11 @@ _lastHash: '',
 			
 			// If the link is a tab, show only the specified tab.
 			var toShow = $( this ).attr( 'href' );
-			$( '#laboratory-container h3, #laboratory-container form > p:not(".submit"), #laboratory-container table' ).hide();
-			$( 'h3#' + toShow ).show().nextUntil( 'h3.section-heading', 'p, table, table p' ).show();
+			$( '#laboratory-container h3.section-heading, #laboratory-container form > p:not(".submit"), #laboratory-container table' ).hide();
+			$( 'h3' + toShow ).show().nextUntil( 'h3.section-heading', 'p, table, table p' ).show();
 			
 			// Resize nicescroll
-			laboratory.nicescroll_resize('.module-settings-loader .settings-inner');
+			//laboratory.nicescroll_resize('.module-settings-loader .settings-inner');
 
 			return false;
 		});
@@ -354,7 +354,8 @@ _lastHash: '',
  				},
  				success: function(res) {
  					var $notice = $(res).find('.updated');
- 					$notice.addClass('alert').insertBefore('.settings-container');
+					$('.settings-error.alert').remove();
+ 					$notice.addClass('alert').insertBefore('.settings-container:first');
  					$loader.fadeOut(200);
  					$scroller.fadeTo(200, 1);
  					$('.settings-inner').getNiceScroll()[0].doScrollTo(0);
@@ -578,6 +579,30 @@ _lastHash: '',
 		LaboratoryAdmin.ajax_component_toggle();
 		LaboratoryAdmin.ajax_save_settings();
 		LaboratoryAdmin.resize_panel();
+		
+		/* Twitter Stream ticker
+		----------------------------------------------------------------- */
+		var $t_stream = $('.laboratory_twitter_stream'),
+				$t_stream_list = $t_stream.find('ul');
+
+		// Only run this script when twitter feed fetched
+		if( $t_stream_list.length > 0 ) {
+			var $item = $t_stream_list.find('li'),
+					item_length = $item.length,
+					current_visible = $item.filter(':visible').index();
+
+			// Hide all list except the first one
+			$t_stream_list.find('li:not(:first)').hide();
+			setInterval(function(){
+				var next_visible = current_visible + 1;
+				if( next_visible > item_length - 1 ) {
+					next_visible = 0;
+				}
+				current_visible = next_visible;
+				$item.hide();
+				$item.eq(next_visible).fadeTo(250, 1);
+			}, 5000);
+		}
 
 	});
 

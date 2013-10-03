@@ -198,4 +198,10 @@ function colabs7_tg_pane_date_and_relatives( $type = 'date' ) {
 <?php
 }
 
+function laboratory_datepicker_enqueue(){
+	 wp_enqueue_script( 'jquery-ui-datepicker' );
+}
+
+add_action('wp_head','laboratory_datepicker_enqueue');
+
 ?>

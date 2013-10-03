@@ -54,7 +54,7 @@ class Laboratory {
 		$this->base = new Laboratory_Base();
 		
 		add_action( 'init', array( &$this, 'load_localisation' ) );
-
+		add_filter( 'plugin_action_links_' . plugin_basename( $file ), array( &$this, 'laboratory_action_links' ) );
 		if ( is_admin() ) {
 			require_once( 'admin.class.php' );
 			$this->admin = new Laboratory_Admin();
@@ -66,7 +66,23 @@ class Laboratory {
 		// Run this on activation.
 		register_activation_hook( $file, array( &$this, 'activation' ) );
 	} // End __construct()
+	
+	/**
+	 * laboratory_action_links function.
+	 * 
+	 * @access public
+	 * @since 1.0.4
+	 * @return void
+	 */
+	public function laboratory_action_links( $links ) {
 
+		$plugin_links = array(
+			'<a href="http://colorlabsproject.com/documentation/laboratory/" target="_blank">' . __( 'Documentation' ) . '</a>'
+		);
+
+		return array_merge( $plugin_links, $links );
+	}
+	
 	/**
 	 * load_localisation function.
 	 * 

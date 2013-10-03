@@ -12,12 +12,12 @@ global $laboratory;
 		<h2><?php echo esc_html( $this->name ); ?></h2>
 	</div>
 	
-	<div class="settings-container">
+
 		<form action="options.php" method="post">
 			<?php $this->settings_tabs(); ?>
 			<?php settings_fields( $this->token ); ?>
-			<?php do_settings_sections( $this->token ); ?>
+			<?php $this->laboratory_do_settings_sections( $this->token ); ?>
 			<?php submit_button(); ?>
 		</form>
-	</div>
+
 </div><!--/#laboratory-->

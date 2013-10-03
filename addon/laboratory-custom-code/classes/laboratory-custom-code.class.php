@@ -53,18 +53,18 @@ class Laboratory_CustomCode {
 			if ( isset( $_GET[$this->token] ) && ( $_GET[$this->token] == 'css' ) ) {
 				add_action( 'template_redirect', array( &$this, 'output_custom_css' ), 0 );
 			}
-			add_action( 'wp_enqueue_scripts', array( &$this, 'enqueue_custom_css' ) );
+			add_action( 'wp_head', array( &$this, 'enqueue_custom_css' ) );
 		}
 
 		/* Output custom HTML optionally */
-		if ( $this->settings['custom-html-enable'] == true ) {
-			if ( $this->settings['custom-html-code-head'] != '' ) {
-				add_action( 'wp_head', array( &$this, 'output_custom_html' ), 100 );
-			}
-			if ( $this->settings['custom-html-code-footer'] != '' ) {
-				add_action( 'wp_footer', array( &$this, 'output_custom_html' ), 100 );
-			}
-		}
+		 if ( $this->settings['custom-html-enable'] == true ) {
+			 if ( $this->settings['custom-html-code-head'] != '' ) {
+				 add_action( 'wp_head', array( &$this, 'output_custom_html' ), 100 );
+			 }
+			 if ( $this->settings['custom-html-code-footer'] != '' ) {
+				 add_action( 'wp_footer', array( &$this, 'output_custom_html' ), 100 );
+			 }
+		 }
 	} // End __construct()
 	
 	/**
@@ -74,25 +74,25 @@ class Laboratory_CustomCode {
 	 * @since 1.0.0
 	 * @return void
 	 */
-	public function load_settings_screen () {
-		/* Settings Screen */
-		require_once( 'settings.class.php' );
-		$this->settings_screen = new Laboratory_CustomCode_Settings();
+	 public function load_settings_screen () {
+		 /* Settings Screen */
+		 require_once( 'settings.class.php' );
+		 $this->settings_screen = new Laboratory_CustomCode_Settings();
 		
-		/* Setup Data */
-		$this->settings_screen->token = $this->token;
-		if ( is_admin() ) {
-			if ( current_user_can( 'unfiltered_html' ) ) {
-				$this->settings_screen->name = __( 'Custom CSS/HTMLs', 'laboratory' );
-				$this->settings_screen->menu_label = __( 'Custom CSS/HTMLs', 'laboratory' );
-			} else {
-				$this->settings_screen->name = __( 'Custom CSS', 'laboratory' );
-				$this->settings_screen->menu_label = __( 'Custom CSS', 'laboratory' );
-			} 
-			$this->settings_screen->page_slug = 'laboratory-custom-code';
-		}
-		$this->settings_screen->setup_settings();
-	} // End load_settings_screen()
+		 /* Setup Data */
+		 $this->settings_screen->token = $this->token;
+		 if ( is_admin() ) {
+			 if ( current_user_can( 'unfiltered_html' ) ) {
+				 $this->settings_screen->name = __( 'Custom CSS/HTML', 'laboratory' );
+				 $this->settings_screen->menu_label = __( 'Custom CSS/HTML', 'laboratory' );
+			 } else {
+				 $this->settings_screen->name = __( 'Custom CSS', 'laboratory' );
+				 $this->settings_screen->menu_label = __( 'Custom CSS', 'laboratory' );
+			 } 
+			 $this->settings_screen->page_slug = 'laboratory-custom-code';
+		 }
+		 $this->settings_screen->setup_settings();
+	 } // End load_settings_screen()
 
 	/**
 	 * enqueue_custom_css function.
@@ -115,7 +115,7 @@ class Laboratory_CustomCode {
 	 */
 	public function output_custom_css () {
 		header( 'Content-Type:text/css' );
-
+		
 		echo $this->settings['custom-css-code'];
 
 		die();

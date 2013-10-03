@@ -1,3 +1,2 @@
 li.toplevel_page_laboratory .wp-menu-image a img  { display: none; }
-#wpwrap li.toplevel_page_laboratory div.wp-menu-image  { background: url(../images/laboratory_menu_sprite.png) no-repeat 0 -32px; }
 #wpwrap li.toplevel_page_laboratory.current div.wp-menu-image, #wpwrap li.toplevel_page_laboratory:hover div.wp-menu-image, #wpwrap li.toplevel_page_laboratory.wp-has-current-submenu div.wp-menu-image  { background-position: 0 top; }

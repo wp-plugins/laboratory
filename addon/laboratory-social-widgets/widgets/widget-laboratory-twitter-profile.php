@@ -336,21 +336,17 @@ class Laboratory_Widget_TwitterProfile extends WP_Widget {
 	public function request_profile_data ( $args ) {
 		$data = array();
 		
-		$url = 'https://twitter.com/users/' . urlencode( $args['username'] ) . '.json';
-
+		$url = 'https://api.twitter.com/1.1/users/show.json?screen_name=' . urlencode( $args['username'] );
+		global $laboratory;
+		require_once($laboratory->base->plugin_path.'classes/admin.class.php' );
+		$laboratory_twit = new laboratory_twitter();
+		$headers = array( 'Authorization' => 'Bearer ' . $laboratory_twit->laboratory_get_access_token() );
 		$response = wp_remote_get( $url, array(
-			'method' => 'GET',
-			'timeout' => 45,
-			'redirection' => 5,
-			'httpversion' => '1.0',
-			'blocking' => true,
-			'headers' => array(),
-			'body' => array(),
-			'cookies' => array(), 
+			'timeout' => 40,
+			'headers' => $headers,
 			'sslverify' => false
 		    )
 		);
-
 		if( is_wp_error( $response ) ) {
 		   $data = array();
 		} else {

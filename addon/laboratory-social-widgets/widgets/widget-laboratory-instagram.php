@@ -459,13 +459,8 @@ class Laboratory_Widget_Instagram extends WP_Widget {
 	public function enqueue_styles () {
 		wp_register_style( 'laboratory-social-widgets', $this->assets_url . 'css/style.css' );
 		wp_enqueue_style( 'laboratory-social-widgets' );
-
-		$instance = $this->get_settings();
-		$instance = $instance[$this->number];
-
-		if ( $instance['enable_thickbox'] == true ) {
 			wp_enqueue_style( 'thickbox' );
-		}
+
 	} // End enqueue_styles()
 
 	/**
@@ -476,12 +471,8 @@ class Laboratory_Widget_Instagram extends WP_Widget {
 	 * @return void
 	 */
 	public function enqueue_scripts () {
-		$instance = $this->get_settings();
-		$instance = $instance[$this->number];
-
-		if ( $instance['enable_thickbox'] == true ) {
 			wp_enqueue_script( 'thickbox' );
-		}
+
 	} // End enqueue_scripts()
 
 	/**
@@ -494,7 +485,7 @@ class Laboratory_Widget_Instagram extends WP_Widget {
 		$html = '';
 
 		if ( is_object( $data ) && isset( $data->data ) && is_array( $data->data ) && ( count( $data->data ) > 0 ) ) {
-			$html .= '<ul class="instagram-photos align' . strtolower( $instance['float'] ) . '">' . "\n";
+			$html .= '<ul class="instagram-photos">' . "\n";
 
 			$params = '';
 			$anchor_params = '';
@@ -522,7 +513,7 @@ class Laboratory_Widget_Instagram extends WP_Widget {
 					$caption = sprintf( __( 'Instagram by %s', 'laboratory' ), $v->user->full_name );
 				}
 
-				$html .= '<li>' . "\n";
+				$html .= '<li class="align' . strtolower( $instance['float'] ) . '">' . "\n";
 				if ( $instance['link_to_fullsize'] == true ) {
 					$html .= '<a href="' . esc_url( $v->images->standard_resolution->url ) . '" title="' . esc_attr( $caption ) . '" class="' . esc_attr( $class ) . '"' . $anchor_params . '>' . "\n";
 				}

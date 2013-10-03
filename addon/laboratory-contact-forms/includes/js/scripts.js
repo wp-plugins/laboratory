@@ -117,7 +117,7 @@
 
 			$f.find('[placeholder]').colabs7Placeholder();
 
-			if (_colabs7.jqueryUi && ! _colabs7.supportHtml5.date) {
+			if (! _colabs7.supportHtml5.date) {
 				$f.find('input.colabs7-date[type="date"]').each(function() {
 					$(this).datepicker({
 						dateFormat: 'yy-mm-dd',

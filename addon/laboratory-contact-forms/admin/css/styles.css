@@ -2,7 +2,8 @@
 	background: transparent url(../images/screen-icon.png) no-repeat 2px 1px;
 }
 #icon-laboratory {
-	background: transparent url(../../../../../assets/images/colorlabs_32.png) no-repeat 2px 1px;
+	background: transparent url(../../../../assets/images/colorlabs_32.png) no-repeat 2px 1px;
+	
 }
 
 div.wrap div.cf7com-links {
@@ -52,8 +53,10 @@ div.wrap div.donation p a.button {
 }
 
 div.save-contact-form {
-	padding: 1.4em 0 0 0;
-	text-align: right;
+	padding: 5px 0 0 0;
+text-align: right;
+float: right;
+display: inline-block;
 }
 
 div.actions-link {
@@ -87,6 +90,7 @@ input#colabs7-title {
 	font: bold 20px serif;
 	cursor: pointer;
 	background-color: transparent;
+	display:inline-block;
 }
 
 input#colabs7-title.focus {

@@ -27,8 +27,6 @@ if ( ! empty( $_SERVER['SCRIPT_FILENAME'] ) && basename( __FILE__ ) == basename(
  * - widget()
  * - update()
  * - form()
- * - get_stored_data()
- * - request_tweets()
  * - enqueue_styles()
  */
 class Laboratory_Widget_Tweets extends WP_Widget {
@@ -100,33 +98,16 @@ class Laboratory_Widget_Tweets extends WP_Widget {
 		do_action( $this->laboratory_widget_cssclass . '_top' );
 		
 		// Load widget content here.
-		$html = '';
-		
-		$args = array(
-					'username' => sanitize_user( strip_tags( $instance['twitter_handle'] ) ), 
-					'limit' => intval( $instance['limit'] ), 
-					'include_retweets' => (bool)$instance['include_retweets'], 
-					'exclude_replies' => (bool)$instance['exclude_replies']
-					);
-
-		$tweets = $this->get_stored_data( $args );
-
-		if ( is_array( $tweets ) && ( count( $tweets ) > 0 ) ) {
-			$html .= '<ul class="tweets">' . "\n";
-			foreach ( $tweets as $k => $v ) {
-				$text = $v->text;
-
-				if ( $v->truncated == false ) {
-					$text = make_clickable( $text );
-				}
-
-				$html .= '<li class="tweet-number-' . esc_attr( ( $k + 1 ) ) . '">' . "\n";
-				$html .= $text . "\n";
-				$html .= '<small class="time-ago"><a href="' . esc_url( 'https://twitter.com/#!/' . urlencode( $instance['twitter_handle'] ) . '/status/' . $v->id_str ) . '">' . human_time_diff( strtotime( $v->created_at ), current_time( 'timestamp' ) ) . ' ' . __( 'ago', 'laboratory' ) . '</a></small>' . "\n";
-				$html .= '</li>' . "\n";
-			}
-			$html .= '</ul>' . "\n";
-		}
+		global $laboratory;
+		require_once($laboratory->base->plugin_path.'classes/admin.class.php' );
+		$laboratory_twit = new laboratory_twitter();
+	  $user_timeline = $laboratory_twit->laboratory_get_user_timeline( $instance['twitter_handle'], $instance['limit'], $instance['include_retweets'], $instance['exclude_replies'] );
+	  if( isset( $user_timeline['error'] ) ) : ?>
+		<p><?php echo $user_timeline['error']; ?></p>
+	  <?php 
+	  else : 
+		$laboratory_twit->laboratory_build_twitter_markup( $user_timeline );
+	  endif;
 
 		if ( $instance['include_follow_link'] != false ) {
 			$html .= '<p class="follow-link"><a href="' . esc_url( 'http://twitter.com/' . urlencode( $instance['twitter_handle'] ) ) . '">' . sprintf( __( 'Follow %s on Twitter', 'laboratory' ), $instance['twitter_handle'] ) . '</a></p>';
@@ -235,64 +216,6 @@ class Laboratory_Widget_Tweets extends WP_Widget {
 		do_action( $this->laboratory_widget_idbase . '_widget_settings', $instance, $this );
 
 	} // End form()
-	/**
-	 * Retrieve stored data, or query for new data.
-	 * @param  array $args
-	 * @return array
-	 */
-	public function get_stored_data ( $args ) {
-		$data = array();
-		$transient_key = $this->id . '-tweets';
-		
-		if ( false === ( $data = get_transient( $transient_key ) ) ) {
-			$response = $this->request_tweets( $args );
-
-			if ( isset( $response[0]->user->id ) ) {
-				$data = $response;
-				set_transient( $transient_key, $data, $this->transient_expire_time );
-			}
-		}
-
-		return $data;
-	} // End get_stored_data()
-
-	/**
-	 * Retrieve tweets for a specified username.
-	 * @param  array $args
-	 * @return array
-	 */
-	public function request_tweets ( $args ) {
-		$data = array();
-		
-		$url = 'https://api.twitter.com/1/statuses/user_timeline.json?id=' . urlencode( $args['username'] );
-		if ( $args['limit'] != '' ) { $url .= '&count=' . intval( $args['limit'] ); }
-		if ( $args['include_retweets'] == true ) { $url .= '&include_rts=1'; }
-		if ( $args['exclude_replies'] == true ) { $url .= '&exclude_replies=1'; }
-
-		$response = wp_remote_get( $url, array(
-			'method' => 'GET',
-			'timeout' => 45,
-			'redirection' => 5,
-			'httpversion' => '1.0',
-			'blocking' => true,
-			'headers' => array(),
-			'body' => array(),
-			'cookies' => array(), 
-			'sslverify' => false
-		    )
-		);
-
-		if( is_wp_error( $response ) ) {
-		   $data = array();
-		} else {
-		   $response = json_decode( $response['body'] );
-			if ( isset( $response[0]->user->id ) ) {
-				$data = $response;
-			}
-		}
-
-		return $data;
-	} // End request_tweets()
 
 	/**
 	 * enqueue_styles function.

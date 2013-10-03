@@ -115,13 +115,13 @@ function crm_inbound_submit_meta_box( $post ) {
 ?><a class="submitdelete deletion" href="<?php echo $delete_link; ?>"><?php echo esc_html( $delete_text ); ?></a><?php } ?>
 </div>
 
-<div id="publishing-action">
+<!--<div id="publishing-action">
 <?php if ( ! empty( $post->id ) ) : ?>
 	<input disabled="disabled" name="save" type="submit" class="button-primary" id="publish" tabindex="4" accesskey="p" value="<?php echo esc_attr( __( 'Update Message', 'crm' ) ); ?>" />
 <?php else : ?>
 	<input disabled="disabled" name="save" type="submit" class="button-primary" id="publish" tabindex="4" accesskey="p" value="<?php echo esc_attr( __( 'Add Message', 'crm' ) ); ?>" />
 <?php endif; ?>
-</div>
+</div>-->
 
 <div class="clear"></div>
 </div><!-- #major-publishing-actions -->

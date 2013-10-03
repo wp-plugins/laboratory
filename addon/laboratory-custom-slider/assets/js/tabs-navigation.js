@@ -20,7 +20,7 @@ jQuery(document).ready( function($) {
 		// If the link is a tab, show only the specified tab.
 		var toShow = jQuery( this ).attr( 'href' );
 		jQuery( '#laboratory_slideshow h3, #laboratory_slideshow form > p:not(".submit"), #laboratory_slideshow table' ).hide();
-		jQuery( 'h3#' + toShow ).show().nextUntil( 'h3.section-heading', 'p, table, table p' ).show();
+		jQuery( 'h3' + toShow ).show().nextUntil( 'h3.section-heading', 'p, table, table p' ).show();
 		
 		return false;
 	});

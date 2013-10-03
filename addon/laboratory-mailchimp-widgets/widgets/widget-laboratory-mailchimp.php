@@ -21,13 +21,13 @@ class Colabs_Widget_MailChimp extends WP_Widget {
 		$widget_options = array('classname' => 'widget_colabs_mailchimp', 'description' => __( "Displays a sign-up form for a MailChimp mailing list.", 'colabsthemes'));
 		$this->WP_Widget('colabs_widget_mailchimp', __('ColorLabs - MailChimp Signup', 'colabsthemes'), $widget_options);
 
-		$this->default_loader_graphic = untrailingslashit( plugins_url( '', __FILE__ ) ).'/assets/images/ajax-loader.gif';
+		$this->default_loader_graphic = untrailingslashit( plugins_url( '', __FILE__ ) ).'/images/ajax-loader.gif';
 		add_action('init', array(&$this, 'add_scripts'));
 		add_action('parse_request', array(&$this, 'process_submission'));
 	}
 	
 	public function add_scripts () {
-		wp_enqueue_script('colabs-mc-widget', untrailingslashit( plugins_url( '', __FILE__ ) ) . '/assets/js/mailchimp-widget-min.js', array('jquery'), false);
+		wp_enqueue_script('colabs-mc-widget', untrailingslashit( plugins_url( '', __FILE__ ) ) . '/js/mailchimp-widget-min.js', array('jquery'), false);
 	}
 	
 	public function get_admin_notices () {

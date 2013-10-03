@@ -1,9 +1,9 @@
 <?php
 /**
 Plugin Name: Laboratory
-Plugin URI: http://colorlabsproject.com/
+Plugin URI: http://colorlabsproject.com/plugins/laboratory/
 Description: Laboratory is a powerful collection of ColorLabs & Company features to enhance your website.
-Version: 1.0.2
+Version: 1.0.5
 Author: ColorLabs & Company
 Author URI: http://colorlabsproject.com/
 License: GPL version 2 or later - http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
@@ -28,12 +28,14 @@ License: GPL version 2 or later - http://www.gnu.org/licenses/old-licenses/gpl-2
         die ( 'Please do not load this screen directly. Thanks!' );
     }
 
-	require_once( 'classes/laboratory.class.php' );
+	require_once( plugin_dir_path( __FILE__ ).'classes/laboratory.class.php' );
 
 
 	global $laboratory;
 
 	$laboratory = new Laboratory( __FILE__ );
-	$laboratory->version = '1.0.2';
+	$laboratory->version = '1.0.5';
 
+	
+	
 ?>

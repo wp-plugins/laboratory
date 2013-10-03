@@ -445,8 +445,12 @@ function crm_load_inbound_admin() {
 	$post_id = ! empty( $_REQUEST['post'] ) ? $_REQUEST['post'] : '';
 
 	if ( Crm_Inbound_Message::post_type == get_post_type( $post_id ) ) {
-		add_meta_box( 'submitdiv', __( 'Save', 'crm' ),
-			'crm_inbound_submit_meta_box', null, 'side', 'core' );
+		if( ISSET($_GET['page']) && $_GET['page'] == 'crm_inbound')
+			$label = __( 'Action', 'crm' );
+		else
+			$label = __( 'Save', 'crm' );
+		add_meta_box( 'submitdiv', $label,
+			'crm_inbound_submit_meta_box', null, 'normal', 'core' );
 
 		add_meta_box( 'inboundfieldsdiv', __( 'Fields', 'crm' ),
 			'crm_inbound_fields_meta_box', null, 'normal', 'core' );

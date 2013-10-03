@@ -80,6 +80,8 @@ class FBComments_Frontend {
     if (!isset($options['pages'])) {$options['pages'] = false;}
     if (!isset($options['homepage'])) {$options['homepage'] = false;}
     if (!isset($options['count'])) {$options['count'] = false;}
+    if (!isset($options['countstyle'])) {$options['countstyle'] = '';}
+    if (!isset($options['titleclass'])) {$options['titleclass'] = '';}
     	if ((is_single() && $options['posts']) ||
            (is_page() && $options['pages']) ||
            ((is_home() || is_front_page()) && $options['homepage'])) {

@@ -397,6 +397,29 @@ class Laboratory_Settings_API {
 		}
 	} // End section_description_main()
 	
+	public function laboratory_do_settings_sections( $page ) {
+		global $wp_settings_sections, $wp_settings_fields;
+
+		if ( ! isset( $wp_settings_sections ) || !isset( $wp_settings_sections[$page] ) )
+			return;
+
+		foreach ( (array) $wp_settings_sections[$page] as $section ) {
+			echo '<div class="settings-container" style="margin-bottom:20px;">';
+			if ( $section['title'] )
+				echo "<h3>{$section['title']}</h3>\n";
+
+			if ( $section['callback'] )
+				call_user_func( $section['callback'], $section );
+
+			if ( ! isset( $wp_settings_fields ) || !isset( $wp_settings_fields[$page] ) || !isset( $wp_settings_fields[$page][$section['id']] ) )
+				continue;
+			echo '<table class="form-table">';
+			do_settings_fields( $page, $section['id'] );
+			echo '</table>';
+			echo '</div>';
+		}
+	}
+	
 	/**
 	 * form_field_text function.
 	 * 
