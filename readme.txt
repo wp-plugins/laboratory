@@ -18,7 +18,7 @@ All modules work independently so you can activate the ones you want to use and 
 
 Laboratory works with all themes.
 
-[vimeo http://vimeo.com/51659911]
+[youtube http://www.youtube.com/watch?v=whuYQy8SW2M]
 
 == Installation ==
 
