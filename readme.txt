@@ -41,26 +41,25 @@ Laboratory will, in theory, work with any theme. Certain parts may need to be st
 == Changelog ==
 
 = 1.0.5 =
-- Add: Datepicker to Custom Contact Form
-- Fix: Bugs Fixed
+* Add: Datepicker to Custom Contact Form
+* Fix: Bugs Fixed
 
 = 1.0.4 =
-- Update Dashboard Style
-- Fix Bug admin.css
+* Update Dashboard Style
+* Fix Bug admin.css
 
 = 1.0.3 =
-Added Mailchimp widget add-on
+* Added Mailchimp widget add-on
 
 = 1.0.2 =
-Added Contact forms add-on
+* Added Contact forms add-on
  
 = 1.0.1 =
-Added Facebook Comments add-on.
+* Added Facebook Comments add-on.
 
 = 1.0.0 =
-First release.
+* First release.
 
 == Upgrade Notice ==
 
-= 1.0 =
-First release.
+No upgrade notices at this point.
