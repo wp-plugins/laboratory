@@ -1,0 +1,102 @@
+.Megamenu-Wrapper .laboratory_mega_div {
+  position: absolute;
+  left: -999em;
+  margin-top: -1px;
+  padding: 10px;
+  border: 1px solid #e2e2e2;
+  border-top: none;
+  background: #eee;
+  width: 350px;
+  z-index: 100;
+}
+.Megamenu-Wrapper .laboratory_mega_div.laboratory_mega2 {
+  width: 400px;
+}
+.Megamenu-Wrapper .laboratory_mega_div.laboratory_mega3 {
+  width: 600px;
+}
+.Megamenu-Wrapper .laboratory_mega_div.laboratory_mega4,
+.Megamenu-Wrapper .laboratory_mega_div.laboratory_mega5 {
+  width: 800px;
+}
+.Megamenu-Wrapper li:hover div {
+  left: -1px;
+  top: auto;
+  margin: 0 !important;
+}
+.Megamenu-Wrapper .laboratory_mega_div ul {
+  width: 100% !important;
+  display: block !important;
+  position: static !important;
+  margin: 0 0 10px 0 !important;
+  height: auto !important;
+  background: none;
+  border: none;
+  visibility: visible !important;
+  overflow: hidden !important;
+  -webkit-box-shadow: none !important;
+     -moz-box-shadow: none !important;
+          box-shadow: none !important;
+}
+.Megamenu-Wrapper .laboratory_mega_div ul li {
+  margin: 0;
+  float: left;
+  display: block;
+}
+.Megamenu-Wrapper .laboratory_mega_div ul ul a {
+  display: block;
+  padding: 8px 5px;
+  color: #333;
+  line-height: normal;
+  width: auto !important;
+  background: none !important
+}
+.Megamenu-Wrapper .laboratory_mega_div ul ul a:hover {
+  background-color: #dedede !important;
+}
+.Megamenu-Wrapper .laboratory_mega_div ul ul li {
+  width: 100%;
+  border: none
+}
+.Megamenu-Wrapper .laboratory_mega_div img {
+  margin-bottom: 5px !important;
+  display: block;
+}
+.Megamenu-Wrapper .laboratory_mega_div .laboratory_mega_hr {
+  float: none !important;
+  display: block;
+  margin: 10px 0;
+  height: 1px;
+  clear: both;
+}
+.Megamenu-Wrapper .laboratory_mega_div .laboratory_mega_menu_columns_first,
+.Megamenu-Wrapper .laboratory_mega_div .laboratory_mega_menu_columns_fist {
+  clear: left;
+}
+.Megamenu-Wrapper .laboratory_mega_div .laboratory_mega_menu_columns_1 {
+  width: 100%;
+}
+.Megamenu-Wrapper .laboratory_mega_div .laboratory_mega_menu_columns_2 {
+  width: 50%;
+}
+.Megamenu-Wrapper .laboratory_mega_div .laboratory_mega_menu_columns_3 {
+  width: 33.3%;
+}
+.Megamenu-Wrapper .laboratory_mega_div .laboratory_mega_menu_columns_4 {
+  width: 25%;
+}
+.Megamenu-Wrapper .laboratory_mega_div .laboratory_mega_menu_columns_5 {
+  width: 20%;
+}
+
+.Megamenu-Wrapper .laboratory_mega_div h4 {
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #333;
+  line-height: normal;
+}
+.Megamenu-Wrapper .laboratory_mega_div h4 {
+  padding-left: 5px;
+  padding-right: 5px
+}

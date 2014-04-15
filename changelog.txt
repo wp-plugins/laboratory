@@ -1,0 +1,24 @@
+*** Laboratory Changelog ***
+
+2013.10.03 - version 1.0.5
+- Add: Datepicker to Custom Contact Form
+  File Affected: date.php
+- Fix: Bugs Fixed
+  Files Affected: index.php, main.php, admin.class.php
+
+2013.09.09 - version 1.0.4
+- Update Dashboard Style
+- Fix Bug admin.css
+  File Affected: admin-class.php
+
+2013.08.26 - version 1.0.3
+- added Mailchimp widget add-on
+
+2013.08.15 - version 1.0.2
+- added Contact forms add-on
+
+2013.01.15 - version 1.0.1
+- added Facebook Comments add-on
+
+2012.09.21 - version 1.0.0
+- First release!
