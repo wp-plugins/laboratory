@@ -63,7 +63,7 @@ class Laboratory_Admin extends Laboratory_Base {
 	 * @return void
 	 */
 	function admin_screen_register () {
-        $hook = add_menu_page( $this->name, $this->name, 'manage_options', $this->slug_name, array( $this, 'admin_screen' ), $this->assets_url . 'images/menu-icon.png', 27 );
+		$hook = add_menu_page( $this->name, $this->name, 'manage_options', $this->slug_name, array( $this, 'admin_screen' ), $this->assets_url . 'images/menu-icon.png', 27 );
 		
 		add_action( 'load-' . $hook, array( $this, 'admin_page_load' ) );
 		add_action( 'admin_head-' . $hook, array( $this, 'admin_head' ) );
@@ -71,15 +71,72 @@ class Laboratory_Admin extends Laboratory_Base {
 		//add_filter( 'menu_order', array( $this, 'admin_menu_order' ) );
 
 		add_action( 'admin_print_styles-' . $hook, array( $this, 'admin_styles' ) );
+		add_action( 'admin_head-' . $hook, array($this, 'laboratory_panel_css') );
 		add_action( 'admin_print_scripts-' . $hook, array( $this, 'laboratory_admin_scripts' ) );
 		
 		// Global styles.
 		add_action( 'admin_print_styles', array( $this, 'laboratory_admin_styles_global' ) );
-
+		
 		do_action( $this->token . '_admin_menu' );
 		
 		$this->hook = $hook; // Store the hook for later use.
 	} // End admin_screen_register()
+	
+	/**
+	 * Render custom css for panel color schemes
+	 */
+	function laboratory_panel_css(){
+		require_once( plugin_dir_path( __FILE__ ).'scss.inc.php' );	
+
+		global $_wp_admin_css_colors;
+		$color_scheme = get_user_option( 'admin_color', get_current_user_id() );
+				
+		$scss = new scssc();
+	
+		if('fresh'==$color_scheme){
+			$base_color = "#09C";
+		}else{
+			$base_color = $_wp_admin_css_colors[ $color_scheme ]->colors[1];
+			$second_color = $_wp_admin_css_colors[ $color_scheme ]->colors[2];
+			$highlight_color = $_wp_admin_css_colors[ $color_scheme ]->colors[0];
+			$custom_color = $_wp_admin_css_colors[ $color_scheme ]->colors[3];
+		}
+		
+		$panel_style = '<style>';
+
+		if('fresh'==$color_scheme){
+			$panel_style .= ".laboratory-sidebar, .laboratory-footnote, .settings-header-fixed{background: ".$base_color .";}";
+			$panel_style .= ".laboratory-menu {background:#007EA8;}";
+			$panel_style .= ".wp-core-ui .button-primary {background-color: #FFB101;border-color: #DA903B;box-shadow:0 1px 0 rgba(0, 0, 0, 0.2), 0 1px 0 0 rgba(255, 255, 255, 0.6) inset}";
+			$panel_style .= ".wp-core-ui .button-primary:hover{background-color: #FFCA00;border-color: #DA903B;box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 1px 0 0 rgba(255, 255, 255, 0.6) inset;}";
+		}elseif('light'==$color_scheme){
+			$panel_style .= ".laboratory-sidebar, .laboratory-footnote, .settings-header-fixed{background: ".$base_color .";}";
+			$panel_style .= ".laboratory-menu {background: ".$highlight_color .";}";
+			$panel_style .= ".btn-close {background: ".$second_color .";}";
+			$panel_style .= ".laboratory-menu a {color:#333;}";
+			$panel_style .= ".laboratory-menu a.active {color:#fff;}";
+			$panel_style .= ".laboratory-menu .menu-hover {background: ".$second_color.";}";
+		}elseif('blue'==$color_scheme){
+			$panel_style .= ".laboratory-sidebar, .laboratory-footnote, .settings-header-fixed{background: ".$second_color .";}";
+			$panel_style .= ".laboratory-menu {background: ".$base_color .";}";
+			$panel_style .= ".btn-close {background: ".$highlight_color .";}";
+			$panel_style .= ".laboratory-menu .menu-hover {background: ".$highlight_color.";}";
+		}elseif('midnight'==$color_scheme){
+			$panel_style .= ".laboratory-sidebar, .laboratory-footnote, .settings-header-fixed{background: ".$base_color .";}";
+			$panel_style .= ".laboratory-menu {background: ".$highlight_color .";}";
+			$panel_style .= ".btn-close {background: ".$custom_color .";}";
+			$panel_style .= ".laboratory-menu .menu-hover {background: ".$custom_color.";}";
+		}else{
+			$panel_style .= ".laboratory-sidebar, .laboratory-footnote, .settings-header-fixed{background: ".$base_color .";}";
+			$panel_style .= ".laboratory-menu {background: ".$highlight_color .";}";
+			$panel_style .= ".btn-close {background: ".$second_color .";}";
+			$panel_style .= ".laboratory-menu .menu-hover {background: ".$second_color.";}";
+		}
+		
+		$panel_style .= '</style>';
+		
+		echo $panel_style;
+	}
 	
 	/**
 	 * admin_menu_order function.
@@ -439,6 +496,7 @@ class laboratory_twitter
 		}
 	}
 
+
 	/**
 	* Builder Twitter timeline HTML markup
 	*/
@@ -453,10 +511,10 @@ class laboratory_twitter
 		  <li>
 			<span class="content">
 			  <?php echo $this->laboratory_linkify_twitter_text( $item->text ); ?>
-			  <a href="<?php echo $status_url; ?>" style="font-size:85%" class="time" target="_blank">
+			</span>
+			 <a href="<?php echo $status_url; ?>" style="font-size:85%" class="time" target="_blank">
 				<?php echo date('M j, Y', strtotime($item->created_at)); ?>
 			  </a>
-			</span>
 		  </li>
 		<?php endforeach; ?>
 		</ul>

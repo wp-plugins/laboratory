@@ -71,7 +71,7 @@ if ( ! empty( $_SERVER['SCRIPT_FILENAME'] ) && basename( __FILE__ ) == basename(
     					if ( $this->model->get_status_token( $i, $k ) == 'disabled' ) {
     						$class = ' hidden';
     					}
-    					echo '<span class="settings-link' . $class . '"><a class="btn" href="' . admin_url( 'admin.php?page=' . urlencode( $this->model->components[$k][$i]->settings ) ) . '">' . __( 'Settings', 'laboratory' ) . '</a></span>' . "\n";
+    					echo '<span class="settings-link' . $class . '"><a class="btn button-primary" href="' . admin_url( 'admin.php?page=' . urlencode( $this->model->components[$k][$i]->settings ) ) . '">' . __( 'Settings', 'laboratory' ) . '</a></span>' . "\n";
     				}
 	    			?>
     			<input type="hidden" name="component-type" value="<?php echo esc_attr( $k ); ?>" />

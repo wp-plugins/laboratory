@@ -71,7 +71,7 @@ class CustomSlider_PostTypes {
 		    'has_archive' => false, 
 		    'hierarchical' => false,
 		    'menu_position' => 20, // Below "Pages"
-		    'menu_icon' => esc_url( $laboratory_slideshow->plugin_url . 'assets/images/icon_slide_16.png' ), 
+		    'menu_icon' => esc_url( $laboratory_slideshow->plugin_url . 'assets/images/pictures2.png' ), 
 		    'supports' => array( 'title', 'editor', 'excerpt', 'thumbnail' )
 		);
 

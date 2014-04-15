@@ -39,7 +39,7 @@
  * @since 1.0.0
  */
  	create_scrollbar: function() {
-		$('#laboratory-addon, .laboratory-menu, .module-settings-loader .settings-inner').niceScroll({
+		$('.laboratory-menu, .module-settings-loader .settings-inner').niceScroll({
 			cursoropacitymax: 0.8,
 			scrollspeed: 30,
 			mousescrollstep: 30,
@@ -96,7 +96,10 @@
 			$module.fadeOut(200);
 			$(id).delay(200).fadeIn(200);
 		}
-
+		
+		if ($(window).width() <= 977){
+			$('.module-list').removeClass('hide-div');
+		}
 		// Set hash
 		window.location.hash = id;
  	}, // End show_module()
@@ -377,7 +380,7 @@ _lastHash: '',
  			setTimeout(function(){
  				var $window 			= $(window),
  						windowHeight	= $window.height(),
- 						$wrapper			= $('.outer-wrapper'),
+ 						$wrapper			= $('.laboratory-wrapper'),
  						$wrapperPos 	= $wrapper.offset().top,
  						footerHeight	= $('#footer').outerHeight(),
  						barHeight			= $('#wpadminbar').outerHeight();
@@ -603,7 +606,14 @@ _lastHash: '',
 				$item.eq(next_visible).fadeTo(250, 1);
 			}, 5000);
 		}
-
+		
+		if ($(window).width() <= 977){
+			$('.laboratory-logo .menu-mobile').click(function (e){
+				e.preventDefault();
+				$('.module-list').toggleClass('hide-div');
+				console.log('test');
+			});
+		}
 	});
 
 
