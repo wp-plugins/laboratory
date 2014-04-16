@@ -37,6 +37,7 @@ Laboratory will, in theory, work with any theme. Certain parts may need to be st
 
 1. Dashboard of Laboratory.
 2. Addon option after activated the addon.
+3. Plugin Panel at smartphone and tablet
 
 == Changelog ==
 
