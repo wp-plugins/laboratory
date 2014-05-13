@@ -1,0 +1,60 @@
+.laboratory_mega_menu_options .laboratory_checkbox input{
+display: block;
+float: left;
+margin-bottom: 11px;
+margin-right: 7px;
+}
+
+
+
+.laboratory_mega_menu, .laboratory_mega_label, .item-type-laboratory, .item-type-megafied, .laboratory_mega_active.menu-item-depth-2 .description-title, .laboratory_mega_active.menu-item-depth-3 .description-title{
+display:none;
+}
+
+.menu-item-depth-0 .laboratory_mega_menu_d0, .laboratory_mega_active.menu-item-depth-1 .laboratory_mega_menu_d1, .laboratory_mega_active.menu-item-depth-2 .laboratory_mega_menu_d2, .laboratory_mega_active.menu-item-depth-3 .laboratory_mega_menu_d2, .laboratory_mega_active.menu-item-depth-4 .laboratory_mega_menu_d2, .laboratory_mega_active.menu-item-depth-5 .laboratory_mega_menu_d2, .laboratory_mega_active.menu-item-depth-6 .laboratory_mega_menu_d2, .laboratory_mega_active.menu-item-depth-7 .laboratory_mega_menu_d2, .laboratory_mega_active.menu-item-depth-8 .laboratory_mega_menu_d2{
+display:block;
+}
+
+/*depth 0 Specials*/
+.laboratory_mega_active.menu-item-depth-0 .item-type-megafied{
+display:inline;
+font-size: 9px;
+font-style: italic;
+}
+
+
+/*depth1 specials*/
+.laboratory_mega_active.menu-item-depth-1 .field-description, .laboratory_mega_active.menu-item-depth-1 .link-to-original, .laboratory_mega_active.menu-item-depth-1 .description-title, .laboratory_mega_active.menu-item-depth-1 .laboratory_default_label, .laboratory_mega_active.menu-item-depth-1 .field-url, .laboratory_mega_active.menu-item-depth-1 .item-type-default{
+display:none;
+}
+
+.laboratory_mega_active.menu-item-depth-1 .laboratory_mega_label{
+display:inline;
+}
+
+.laboratory_mega_active.menu-item-depth-1 .item-type-laboratory{
+display:block;
+color: #333333;
+}
+
+.laboratory_mega_active.menu-item-depth-2 .field-description, .laboratory_mega_active.menu-item-depth-3 .field-description, .laboratory_mega_active.menu-item-depth-4 .field-description, .laboratory_mega_active.menu-item-depth-5 .field-description, .laboratory_mega_active.menu-item-depth-6 .field-description, .laboratory_mega_active.menu-item-depth-7 .field-description, .laboratory_mega_active.menu-item-depth-8 .field-description{
+display:block;
+}
+
+.laboratory_long_desc{
+overflow: hidden;
+display: block;
+}
+
+.laboratory_mega_active.menu-item-depth-1 .laboratory_label_desc_on_active{
+height:auto;
+width:auto;
+float:none;
+}
+
+.laboratory_mega_active .laboratory_label_desc_on_active .laboratory_supersmall{
+font-size: 11px;
+color:#888;
+display:inline-block;
+padding:0 0 3px 0;
+}
