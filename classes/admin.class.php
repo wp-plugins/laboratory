@@ -66,7 +66,7 @@ class Laboratory_Admin extends Laboratory_Base {
 		$hook = add_menu_page( $this->name, $this->name, 'manage_options', $this->slug_name, array( $this, 'admin_screen' ), $this->assets_url . 'images/menu-icon.png', 27 );
 		
 		add_action( 'load-' . $hook, array( $this, 'admin_page_load' ) );
-		add_action( 'admin_head-' . $hook, array( $this, 'admin_head' ) );
+		add_action( 'admin_head-' . $hook, array( $this, 'admin_head' ) ); 
 		//add_filter( 'custom_menu_order', '__return_true' );
 		//add_filter( 'menu_order', array( $this, 'admin_menu_order' ) );
 

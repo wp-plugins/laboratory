@@ -41,6 +41,9 @@ Laboratory will, in theory, work with any theme. Certain parts may need to be st
 
 == Changelog ==
 
+= 1.0.7 =
+* Fix conflicting menu
+
 = 1.0.6 =
 * Update Plugin Panel Style
 

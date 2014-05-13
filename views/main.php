@@ -5,7 +5,7 @@ if ( ! empty( $_SERVER['SCRIPT_FILENAME'] ) && basename( __FILE__ ) == basename(
 
 global $laboratory;
 if ( $this->model->current_action_response == 'cred' ) {
-	return;
+	return; 
 }
 
 
