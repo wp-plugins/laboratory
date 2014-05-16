@@ -34,7 +34,7 @@ License: GPL version 2 or later - http://www.gnu.org/licenses/old-licenses/gpl-2
 	global $laboratory;
 
 	$laboratory = new Laboratory( __FILE__ );
-	$laboratory->version = '1.0.6';
+	$laboratory->version = '1.0.8';
 
 	
 	

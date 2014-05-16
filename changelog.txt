@@ -1,5 +1,11 @@
 *** Laboratory Changelog ***
 
+2014.05.16 - version 1.0.8
+- Removed unused plugin-updater reference from .po and .mo files
+- Fix file name "laboratory-en_EN"
+- Remove unused plugin updater class
+  File Removed: class-laboratory-plugin-updater.php, laboratory-en_EN.mo, laboratory-en_EN.po
+
 2014.05.09 - version 1.0.7
 - Fix conflicting menu. 
   File Affected: main.php, admin.class.php

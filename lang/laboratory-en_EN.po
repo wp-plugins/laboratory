@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Laboratory\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-09-20 14:12+0700\n"
-"PO-Revision-Date: 2012-09-20 14:12+0700\n"
+"PO-Revision-Date: 2014-05-16 14:19+0700\n"
 "Last-Translator: admin <admin@mail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -11,6 +11,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
 "X-Poedit-Basepath: C:\\xampp\\htdocs\\mywp\\wp-content\\plugins\\laboratory\n"
+"Language: en\n"
+"X-Generator: Poedit 1.6.5\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #: addon/laboratory-custom-code/classes/laboratory-custom-code.class.php:86
@@ -33,7 +35,9 @@ msgid "Custom HTML"
 msgstr ""
 
 #: addon/laboratory-custom-code/classes/settings.class.php:58
-msgid "Add custom HTML code to the &lt;head&gt; section or before the closing &lt;/body&gt; tag on your website."
+msgid ""
+"Add custom HTML code to the &lt;head&gt; section or before the closing &lt;/"
+"body&gt; tag on your website."
 msgstr ""
 
 #: addon/laboratory-custom-code/classes/settings.class.php:78
@@ -65,7 +69,9 @@ msgid "Inside the &lt;head&gt; Tags"
 msgstr ""
 
 #: addon/laboratory-custom-code/classes/settings.class.php:109
-msgid "Output custom HTML code inside the &lt;head&gt; tags of your website (JavaScript is not permitted)."
+msgid ""
+"Output custom HTML code inside the &lt;head&gt; tags of your website "
+"(JavaScript is not permitted)."
 msgstr ""
 
 #: addon/laboratory-custom-code/classes/settings.class.php:119
@@ -73,7 +79,9 @@ msgid "Before the closing &lt;/body&gt; Tag"
 msgstr ""
 
 #: addon/laboratory-custom-code/classes/settings.class.php:120
-msgid "Output custom HTML code before the closing &lt;/body&gt; tag of your website (JavaScript is not permitted)."
+msgid ""
+"Output custom HTML code before the closing &lt;/body&gt; tag of your website "
+"(JavaScript is not permitted)."
 msgstr ""
 
 #: addon/laboratory-custom-menus/classes/custom-menus.class.php:77
@@ -98,7 +106,8 @@ msgid "Advanced Settings"
 msgstr ""
 
 #: addon/laboratory-custom-slider/classes/class-custom-slider-admin.php:100
-msgid "Optionally override the default slideshow settings using the fields below."
+msgid ""
+"Optionally override the default slideshow settings using the fields below."
 msgstr ""
 
 #: addon/laboratory-custom-slider/classes/class-custom-slider-admin.php:164
@@ -145,7 +154,9 @@ msgstr ""
 
 #: addon/laboratory-custom-slider/classes/class-custom-slider-admin.php:416
 #: addon/laboratory-custom-slider/classes/class-custom-slider-admin.php:490
-msgid "Use thumbnails for pagination, instead of \"dot\" indicators (uses featured image)"
+msgid ""
+"Use thumbnails for pagination, instead of \"dot\" indicators (uses featured "
+"image)"
 msgstr ""
 
 #: addon/laboratory-custom-slider/classes/class-custom-slider-admin.php:475
@@ -565,7 +576,9 @@ msgstr ""
 
 #: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:251
 #: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:337
-msgid "Pause the slideshow autoplay when using the pagination or \"Previous/Next\" navigation"
+msgid ""
+"Pause the slideshow autoplay when using the pagination or \"Previous/Next\" "
+"navigation"
 msgstr ""
 
 #: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:259
@@ -578,15 +591,22 @@ msgid "Overview"
 msgstr ""
 
 #: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:306
-msgid "This screen contains all the default settings for your slideshows created by CustomSlider (animation duration, speeds, display of slideshow controls, etc). Anything set here will apply to all CustomSlider slideshows, unless overridden by a slideshow."
+msgid ""
+"This screen contains all the default settings for your slideshows created by "
+"CustomSlider (animation duration, speeds, display of slideshow controls, "
+"etc). Anything set here will apply to all CustomSlider slideshows, unless "
+"overridden by a slideshow."
 msgstr ""
 
 #: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:315
-msgid "The default animation to use for your slideshows (\"slide\" or \"fade\")."
+msgid ""
+"The default animation to use for your slideshows (\"slide\" or \"fade\")."
 msgstr ""
 
 #: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:316
-msgid "Slide the slideshows either vertically or horizontally (works only with the \"slide\" animation)."
+msgid ""
+"Slide the slideshows either vertically or horizontally (works only with the "
+"\"slide\" animation)."
 msgstr ""
 
 #: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:316
@@ -602,11 +622,14 @@ msgid "The duration of each slide animation (in seconds)."
 msgstr ""
 
 #: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:328
-msgid "Whether or not to automatically animate between the slides (the alternative is to slide only when using the controls)."
+msgid ""
+"Whether or not to automatically animate between the slides (the alternative "
+"is to slide only when using the controls)."
 msgstr ""
 
 #: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:329
-msgid "Alternatively, the slideshow will take the height from it's tallest slide."
+msgid ""
+"Alternatively, the slideshow will take the height from it's tallest slide."
 msgstr ""
 
 #: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:330
@@ -618,15 +641,20 @@ msgid "Show/hide the pagination bar below the slideshow."
 msgstr ""
 
 #: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:332
-msgid "Enable navigation of this slideshow via the \"left\" and \"right\" arrow keys on the viewer's computer keyboard."
+msgid ""
+"Enable navigation of this slideshow via the \"left\" and \"right\" arrow "
+"keys on the viewer's computer keyboard."
 msgstr ""
 
 #: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:333
-msgid "Enable navigation of this slideshow via the viewer's computer mousewheel."
+msgid ""
+"Enable navigation of this slideshow via the viewer's computer mousewheel."
 msgstr ""
 
 #: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:334
-msgid "Show/hide the \"Play/Pause\" button below the slideshow for pausing and resuming the automated slideshow."
+msgid ""
+"Show/hide the \"Play/Pause\" button below the slideshow for pausing and "
+"resuming the automated slideshow."
 msgstr ""
 
 #: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:335
@@ -634,15 +662,20 @@ msgid "Display the slides in the slideshow in a random order."
 msgstr ""
 
 #: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:336
-msgid "When arriving at the end of the slideshow, carry on sliding from the first slide, indefinitely."
+msgid ""
+"When arriving at the end of the slideshow, carry on sliding from the first "
+"slide, indefinitely."
 msgstr ""
 
 #: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:337
-msgid "Pause the slideshow automation when the viewer decides to navigate using the manual controls."
+msgid ""
+"Pause the slideshow automation when the viewer decides to navigate using the "
+"manual controls."
 msgstr ""
 
 #: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:338
-msgid "Pause the slideshow automation when the viewer hovers over the slideshow."
+msgid ""
+"Pause the slideshow automation when the viewer hovers over the slideshow."
 msgstr ""
 
 #: addon/laboratory-custom-slider/classes/class-custom-slider-settings.php:348
@@ -698,60 +731,6 @@ msgstr ""
 msgid "Custom Slider"
 msgstr ""
 
-#: addon/laboratory-custom-slider/classes/class-laboratory-plugin-updater.php:147
-msgid "ColorLabs Updates"
-msgstr ""
-
-#: addon/laboratory-custom-slider/classes/class-laboratory-plugin-updater.php:167
-msgid "ColorLabs Plugin Updater"
-msgstr ""
-
-#: addon/laboratory-custom-slider/classes/class-laboratory-plugin-updater.php:174
-msgid "ColorLabs Username"
-msgstr ""
-
-#: addon/laboratory-custom-slider/classes/class-laboratory-plugin-updater.php:178
-msgid "ColorLabs Password"
-msgstr ""
-
-#: addon/laboratory-custom-slider/classes/class-laboratory-plugin-updater.php:187
-msgid "Login"
-msgstr ""
-
-#: addon/laboratory-custom-slider/classes/class-laboratory-plugin-updater.php:238
-msgid "Switch ColorLabs Account"
-msgstr ""
-
-#: addon/laboratory-custom-slider/classes/class-laboratory-plugin-updater.php:240
-#, php-format
-msgid "You are currently logged in as %1$s. To switch to a different ColorLabs account, please fill in the login details below."
-msgstr ""
-
-#: addon/laboratory-custom-slider/classes/class-laboratory-plugin-updater.php:243
-msgid "Update your Plugins"
-msgstr ""
-
-#: addon/laboratory-custom-slider/classes/class-laboratory-plugin-updater.php:250
-msgid "Login Error"
-msgstr ""
-
-#: addon/laboratory-custom-slider/classes/class-laboratory-plugin-updater.php:252
-msgid "The login details supplied are invalid. Please try again."
-msgstr ""
-
-#: addon/laboratory-custom-slider/classes/class-laboratory-plugin-updater.php:262
-msgid "Enable ColorLabs Plugin Updates."
-msgstr ""
-
-#: addon/laboratory-custom-slider/classes/class-laboratory-plugin-updater.php:264
-#, php-format
-msgid "Please <a href=\"%1$s\">login</a> to enable automatic plugin updates."
-msgstr ""
-
-#: addon/laboratory-custom-slider/classes/class-laboratory-plugin-updater.php:277
-msgid "Hide This Message"
-msgstr ""
-
 #: addon/laboratory-custom-slider/widgets/widget-custom-slider-attachments.php:31
 msgid "A slideshow of the images attached to the current page/post"
 msgstr ""
@@ -784,7 +763,9 @@ msgid "Customise Advanced Settings"
 msgstr ""
 
 #: addon/laboratory-custom-slider/widgets/widget-custom-slider-base.php:278
-msgid "Save the widget settings with this checkbox checked to customise slideshow settings."
+msgid ""
+"Save the widget settings with this checkbox checked to customise slideshow "
+"settings."
 msgstr ""
 
 #: addon/laboratory-custom-slider/widgets/widget-custom-slider-posts.php:31
@@ -809,7 +790,9 @@ msgid "Custom Login"
 msgstr ""
 
 #: addon/laboratory-login-branding/classes/settings.class.php:48
-msgid "General login branding settings. If you do not wish to use a specific option, leave the setting blank to disable."
+msgid ""
+"General login branding settings. If you do not wish to use a specific "
+"option, leave the setting blank to disable."
 msgstr ""
 
 #: addon/laboratory-login-branding/classes/settings.class.php:65
@@ -817,7 +800,9 @@ msgid "Logo URL"
 msgstr ""
 
 #: addon/laboratory-login-branding/classes/settings.class.php:66
-msgid "Change the logo image for the WordPress login page. This is the URL of your logo."
+msgid ""
+"Change the logo image for the WordPress login page. This is the URL of your "
+"logo."
 msgstr ""
 
 #: addon/laboratory-login-branding/classes/settings.class.php:74
@@ -833,7 +818,9 @@ msgid "Logo Image URL"
 msgstr ""
 
 #: addon/laboratory-login-branding/classes/settings.class.php:83
-msgid "Change the URL that the logo image on the WordPress login page links to when clicked on."
+msgid ""
+"Change the URL that the logo image on the WordPress login page links to when "
+"clicked on."
 msgstr ""
 
 #: addon/laboratory-shortlinks/classes/laboratory-shortlinks.class.php:49
@@ -1221,7 +1208,9 @@ msgid "The \"featured image\" will be used as thumbnails."
 msgstr ""
 
 #: addon/laboratory-tabs/classes/widget-laboratory-tabs.php:273
-msgid "Post thumbnails are not supported by your theme. Thumbnails will not be displayed."
+msgid ""
+"Post thumbnails are not supported by your theme. Thumbnails will not be "
+"displayed."
 msgstr ""
 
 #: addon/laboratory-tabs/classes/widget-laboratory-tabs.php:392
@@ -1323,7 +1312,9 @@ msgid "There was an error deactivating %s. Please try again."
 msgstr ""
 
 #: models/main.class.php:199
-msgid "This screen provides an overview of all features available through Laboratory. Features are also enabled and disabled here."
+msgid ""
+"This screen provides an overview of all features available through "
+"Laboratory. Features are also enabled and disabled here."
 msgstr ""
 
 #: models/main.class.php:203
@@ -1331,11 +1322,15 @@ msgid "Addon Features"
 msgstr ""
 
 #: models/main.class.php:205
-msgid "Addon features are immediately available and come packaged with Laboratory."
+msgid ""
+"Addon features are immediately available and come packaged with Laboratory."
 msgstr ""
 
 #: models/main.class.php:207
-msgid "Enabling or disabling a addon feature can be done instantly. Simply click the \"Enable\" or \"Disable\" button for the desired feature under the \"Addon Features\" section."
+msgid ""
+"Enabling or disabling a addon feature can be done instantly. Simply click "
+"the \"Enable\" or \"Disable\" button for the desired feature under the "
+"\"Addon Features\" section."
 msgstr ""
 
 #: views/component-item.php:74
@@ -1345,4 +1340,3 @@ msgstr ""
 #: views/section.php:18
 msgid "Close"
 msgstr ""
-

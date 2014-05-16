@@ -41,6 +41,10 @@ Laboratory will, in theory, work with any theme. Certain parts may need to be st
 
 == Changelog ==
 
+= 1.0.8 =
+* Fix file name
+* Removed unused plugin-updater class and file
+
 = 1.0.7 =
 * Fix conflicting menu
 
