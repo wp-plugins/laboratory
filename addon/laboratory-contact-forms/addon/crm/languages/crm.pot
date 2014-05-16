@@ -1,0 +1,349 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: crm\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-10-19 00:15+0900\n"
+"PO-Revision-Date: 2012-10-19 00:16+0900\n"
+"Last-Translator: Dadan ARIFIN\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_c\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.5.3\n"
+"X-Poedit-SearchPath-0: crm\n"
+
+#: crm/admin/admin.php:9 crm/admin/admin.php:14
+#: crm/admin/admin.php:256
+msgid "crm Address Book"
+msgstr ""
+
+#: crm/admin/admin.php:9
+msgid "crm"
+msgstr ""
+
+#: crm/admin/admin.php:14
+msgid "Address Book"
+msgstr ""
+
+#: crm/admin/admin.php:20 crm/includes/class-inbound-message.php:24
+msgid "crm Inbound Messages"
+msgstr ""
+
+#: crm/admin/admin.php:20 crm/admin/admin.php:489
+msgid "Inbound Messages"
+msgstr ""
+
+#: crm/admin/admin.php:66
+msgid "Contact updated."
+msgstr ""
+
+#: crm/admin/admin.php:68
+msgid "Contact deleted."
+msgstr ""
+
+#: crm/admin/admin.php:70
+msgid "Messages trashed."
+msgstr ""
+
+#: crm/admin/admin.php:72
+msgid "Messages restored."
+msgstr ""
+
+#: crm/admin/admin.php:74
+msgid "Messages deleted."
+msgstr ""
+
+#: crm/admin/admin.php:76
+msgid "Messages got marked as spam."
+msgstr ""
+
+#: crm/admin/admin.php:78
+msgid "Messages got marked as not spam."
+msgstr ""
+
+#: crm/admin/admin.php:105
+msgid "You are not allowed to edit this item."
+msgstr ""
+
+#: crm/admin/admin.php:144 crm/admin/admin.php:377
+msgid "You are not allowed to delete this item."
+msgstr ""
+
+#: crm/admin/admin.php:147 crm/admin/admin.php:380
+msgid "Error in deleting."
+msgstr ""
+
+#: crm/admin/admin.php:170
+#: crm/admin/includes/class-contacts-list-table.php:11
+msgid "Email"
+msgstr ""
+
+#: crm/admin/admin.php:170 crm/admin/includes/meta-boxes.php:140
+msgid "Full name"
+msgstr ""
+
+#: crm/admin/admin.php:171 crm/admin/includes/meta-boxes.php:145
+msgid "First name"
+msgstr ""
+
+#: crm/admin/admin.php:171 crm/admin/includes/meta-boxes.php:150
+msgid "Last name"
+msgstr ""
+
+#: crm/admin/admin.php:215 crm/admin/admin.php:451
+msgid "Save"
+msgstr ""
+
+#: crm/admin/admin.php:218
+#: crm/admin/includes/class-contacts-list-table.php:13
+msgid "Tags"
+msgstr ""
+
+#: crm/admin/admin.php:221
+#: crm/admin/includes/class-contacts-list-table.php:12
+msgid "Name"
+msgstr ""
+
+#: crm/admin/admin.php:234
+msgid "Contacts"
+msgstr ""
+
+#: crm/admin/admin.php:260 crm/admin/admin.php:493
+#, php-format
+msgid "Search results for &#8220;%s&#8221;"
+msgstr ""
+
+#: crm/admin/admin.php:269
+msgid "Search Contacts"
+msgstr ""
+
+#: crm/admin/admin.php:310
+msgid "You are not allowed to move this item to the Trash."
+msgstr ""
+
+#: crm/admin/admin.php:313
+msgid "Error in moving to Trash."
+msgstr ""
+
+#: crm/admin/admin.php:340
+msgid "You are not allowed to restore this item from the Trash."
+msgstr ""
+
+#: crm/admin/admin.php:343
+msgid "Error in restoring from Trash."
+msgstr ""
+
+#: crm/admin/admin.php:407
+msgid "You are not allowed to spam this item."
+msgstr ""
+
+#: crm/admin/admin.php:435
+msgid "You are not allowed to unspam this item."
+msgstr ""
+
+#: crm/admin/admin.php:454
+msgid "Fields"
+msgstr ""
+
+#: crm/admin/admin.php:467
+msgid "Messages"
+msgstr ""
+
+#: crm/admin/admin.php:504
+msgid "Search Messages"
+msgstr ""
+
+#: crm/admin/edit-contact-form.php:17
+msgid "Edit Contact"
+msgstr ""
+
+#: crm/admin/edit-contact-form.php:43
+msgid "Enter email here"
+msgstr ""
+
+#: crm/admin/edit-inbound-form.php:17
+msgid "Inbound Message"
+msgstr ""
+
+#: crm/admin/edit-inbound-form.php:42
+#: crm/admin/includes/class-inbound-messages-list-table.php:14
+msgid "Date"
+msgstr ""
+
+#: crm/admin/edit-inbound-form.php:47
+#: crm/admin/includes/class-inbound-messages-list-table.php:11
+msgid "Subject"
+msgstr ""
+
+#: crm/admin/edit-inbound-form.php:52
+#: crm/admin/includes/class-inbound-messages-list-table.php:12
+msgid "From"
+msgstr ""
+
+#: crm/admin/includes/class-contacts-list-table.php:14
+msgid "History"
+msgstr ""
+
+#: crm/admin/includes/class-contacts-list-table.php:15
+msgid "Last Contact"
+msgstr ""
+
+#: crm/admin/includes/class-contacts-list-table.php:82
+#: crm/admin/includes/meta-boxes.php:11
+msgid "Delete"
+msgstr ""
+
+#: crm/admin/includes/class-contacts-list-table.php:106
+msgid "View all tags"
+msgstr ""
+
+#: crm/admin/includes/class-contacts-list-table.php:112
+#: crm/admin/includes/class-inbound-messages-list-table.php:173
+msgid "Filter"
+msgstr ""
+
+#: crm/admin/includes/class-contacts-list-table.php:115
+msgid "Export"
+msgstr ""
+
+#: crm/admin/includes/class-contacts-list-table.php:138
+#: crm/admin/includes/class-inbound-messages-list-table.php:207
+msgid "Edit"
+msgstr ""
+
+#: crm/admin/includes/class-contacts-list-table.php:142
+#: crm/admin/includes/class-inbound-messages-list-table.php:227
+#, php-format
+msgid "Edit &#8220;%s&#8221;"
+msgstr ""
+
+#: crm/admin/includes/class-contacts-list-table.php:154
+msgid "No Tags"
+msgstr ""
+
+#: crm/admin/includes/class-contacts-list-table.php:183
+msgid "User"
+msgstr ""
+
+#: crm/admin/includes/class-contacts-list-table.php:196
+#, php-format
+msgid "Comment (%d)"
+msgstr ""
+
+#: crm/admin/includes/class-contacts-list-table.php:235
+#: crm/admin/includes/class-inbound-messages-list-table.php:260
+#: crm/includes/class-inbound-message.php:115
+msgid "Y/m/d g:i:s A"
+msgstr ""
+
+#: crm/admin/includes/class-contacts-list-table.php:242
+#: crm/admin/includes/class-inbound-messages-list-table.php:267
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: crm/admin/includes/class-contacts-list-table.php:244
+#: crm/admin/includes/class-inbound-messages-list-table.php:269
+msgid "Y/m/d"
+msgstr ""
+
+#: crm/admin/includes/class-inbound-messages-list-table.php:13
+msgid "Channel"
+msgstr ""
+
+#: crm/admin/includes/class-inbound-messages-list-table.php:131
+msgid "Restore"
+msgstr ""
+
+#: crm/admin/includes/class-inbound-messages-list-table.php:134
+#: crm/admin/includes/meta-boxes.php:107
+msgid "Delete Permanently"
+msgstr ""
+
+#: crm/admin/includes/class-inbound-messages-list-table.php:136
+#: crm/admin/includes/meta-boxes.php:109
+msgid "Move to Trash"
+msgstr ""
+
+#: crm/admin/includes/class-inbound-messages-list-table.php:167
+msgid "View all channels"
+msgstr ""
+
+#: crm/admin/includes/class-inbound-messages-list-table.php:178
+msgid "Empty Trash"
+msgstr ""
+
+#: crm/admin/includes/class-inbound-messages-list-table.php:215
+msgid "Not Spam"
+msgstr ""
+
+#: crm/admin/includes/class-inbound-messages-list-table.php:221
+msgid "Spam"
+msgstr ""
+
+#: crm/admin/includes/meta-boxes.php:17
+#, php-format
+msgid ""
+"You are about to delete this contact '%s'\n"
+" 'Cancel' to stop, 'OK' to delete."
+msgstr ""
+
+#: crm/admin/includes/meta-boxes.php:22
+msgid "Update Contact"
+msgstr ""
+
+#: crm/admin/includes/meta-boxes.php:24
+msgid "Add Contact"
+msgstr ""
+
+#: crm/admin/includes/meta-boxes.php:68
+msgid "Separate tags with commas"
+msgstr ""
+
+#: crm/admin/includes/meta-boxes.php:71
+msgid "Choose from the most used tags"
+msgstr ""
+
+#: crm/admin/includes/meta-boxes.php:120
+msgid "Update Message"
+msgstr ""
+
+#: crm/admin/includes/meta-boxes.php:122
+msgid "Add Message"
+msgstr ""
+
+#: crm/includes/class-contact.php:20
+msgid "crm Contacts"
+msgstr ""
+
+#: crm/includes/class-contact.php:21
+msgid "crm Contact"
+msgstr ""
+
+#: crm/includes/class-contact.php:27
+msgid "crm Contact Tags"
+msgstr ""
+
+#: crm/includes/class-contact.php:28
+msgid "crm Contact Tag"
+msgstr ""
+
+#: crm/includes/class-inbound-message.php:25
+msgid "crm Inbound Message"
+msgstr ""
+
+#: crm/includes/class-inbound-message.php:31
+msgid "crm Inbound Message Channels"
+msgstr ""
+
+#: crm/includes/class-inbound-message.php:32
+msgid "crm Inbound Message Channel"
+msgstr ""
+
+#: crm/includes/class-inbound-message.php:135
+msgid "(No Title)"
+msgstr ""
