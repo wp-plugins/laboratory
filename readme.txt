@@ -3,7 +3,7 @@ Contributors: colorlabs
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=paypal@colorlabsproject.com&item_name=Donation+for+Laboratory
 Tags: laboratory, widget, css, shortlink, tab, slider, social, links, post, twitter, images, login, menu
 Requires at least: 3.3
-Tested up to: WordPress 3.8.1
+Tested up to: WordPress 4.0
 Stable tag: trunk
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -40,6 +40,10 @@ Laboratory will, in theory, work with any theme. Certain parts may need to be st
 3. Plugin Panel at smartphone and tablet
 
 == Changelog ==
+
+= 1.0.9 =
+* Fix Facebook Comments not working
+* Fix Facebook Comments shortcode
 
 = 1.0.8 =
 * Fix file name

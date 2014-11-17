@@ -1,5 +1,11 @@
 *** Laboratory Changelog ***
 
+2014.10.17 - Version 1.0.9
+- Fix: Facebook Comment not working properly
+  File Affected: addon/laboratory-fbcomments/classes/class-fbcomments-frontend.php
+- Fix: Facebook Comment shortcode on Content and Text Widget not working
+  File Affected: addon/laboratory-fbcomments/classes/class-fbcomments-frontend.php
+
 2014.05.16 - version 1.0.8
 - Removed unused plugin-updater reference from .po and .mo files
 - Fix file name "laboratory-en_EN"
