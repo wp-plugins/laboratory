@@ -31,9 +31,9 @@ class CustomSlider_Widget_Attachments extends CustomSlider_Widget_Base {
 		$this->laboratory_widget_description = __( 'A slideshow of the images attached to the current page/post', 'laboratory' );
 		$this->laboratory_widget_idbase = 'laboratory_slideshow_slideshow_attachments';
 		$this->laboratory_widget_title = __('Laboratory Attached Images Slide', 'laboratory' );
-
-		$this->init();
-
+    
+    $this->init();
+    
 		$this->defaults = array(
 						'title' => __( 'Images', 'laboratory' )
 					);

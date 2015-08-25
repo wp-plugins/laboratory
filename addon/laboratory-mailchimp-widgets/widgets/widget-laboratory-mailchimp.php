@@ -13,13 +13,13 @@ class Colabs_Widget_MailChimp extends WP_Widget {
 	private $subscribe_errors;
 	private $colabs_mailchimp;
 	
-	public function Colabs_Widget_MailChimp () {
+	public function __construct () {
 		$this->default_failure_message = __('There was a problem processing your submission.');
 		$this->default_signup_text = __('Join now!');
 		$this->default_success_message = __('Thank you for joining our mailing list. Please check your email for a confirmation link.');
 		$this->default_title = __('Sign up for our mailing list.');
 		$widget_options = array('classname' => 'widget_colabs_mailchimp', 'description' => __( "Displays a sign-up form for a MailChimp mailing list.", 'colabsthemes'));
-		$this->WP_Widget('colabs_widget_mailchimp', __('ColorLabs - MailChimp Signup', 'colabsthemes'), $widget_options);
+		parent::__construct(false, __('ColorLabs - MailChimp Signup', 'colabsthemes'), $widget_options);
 
 		$this->default_loader_graphic = untrailingslashit( plugins_url( '', __FILE__ ) ).'/images/ajax-loader.gif';
 		add_action('init', array(&$this, 'add_scripts'));

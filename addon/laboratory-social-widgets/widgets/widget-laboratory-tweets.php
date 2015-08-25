@@ -57,12 +57,8 @@ class Laboratory_Widget_Tweets extends WP_Widget {
 
 		/* Widget settings. */
 		$widget_ops = array( 'classname' => $this->laboratory_widget_cssclass, 'description' => $this->laboratory_widget_description );
-
-		/* Widget control settings. */
-		$control_ops = array( 'width' => 250, 'height' => 350, 'id_base' => $this->laboratory_widget_idbase );
-
-		/* Create the widget. */
-		$this->WP_Widget( $this->laboratory_widget_idbase, $this->laboratory_widget_title, $widget_ops, $control_ops );
+    
+    parent::__construct(false,$this->laboratory_widget_title,$widget_ops); 
 	} // End Constructor
 
 	/**
@@ -79,6 +75,8 @@ class Laboratory_Widget_Tweets extends WP_Widget {
 
 		extract( $args, EXTR_SKIP );
 		
+    $html ='';
+    
 		/* Our variables from the widget settings. */
 		$title = apply_filters('widget_title', $instance['title'], $instance, $this->id_base );
 

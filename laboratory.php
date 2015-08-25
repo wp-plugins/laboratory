@@ -3,12 +3,12 @@
  * Plugin Name: Laboratory
  * Plugin URI: http://colorlabsproject.com/plugins/laboratory/
  * Description: Laboratory is a powerful collection of ColorLabs & Company features to enhance your website.
- * Version: 1.0.9
+ * Version: 1.1.0
  * Author: ColorLabs & Company
  * Author URI: http://colorlabsproject.com/
  * License: GPL version 2 or later - http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  */
-/**  Copyright 2012  ColorLabs 
+/**  Copyright 2012  Colorlabs 
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License, version 2, as 
@@ -34,7 +34,7 @@
 	global $laboratory;
 
 	$laboratory = new Laboratory( __FILE__ );
-	$laboratory->version = '1.0.8';
+	$laboratory->version = '1.1.0';
 
 	
 	

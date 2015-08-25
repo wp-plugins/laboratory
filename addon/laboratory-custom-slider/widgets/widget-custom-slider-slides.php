@@ -31,8 +31,8 @@ class CustomSlider_Widget_Slides extends CustomSlider_Widget_Base {
 		$this->laboratory_widget_description = __( 'A slideshow of slides on your site', 'laboratory' );
 		$this->laboratory_widget_idbase = 'laboratory_slideshow_slideshow_slides';
 		$this->laboratory_widget_title = __('Laboratory Slides Slideshow', 'laboratory' );
-
-		$this->init();
+    
+    $this->init();
 
 		$this->defaults = array(
 						'title' => ''

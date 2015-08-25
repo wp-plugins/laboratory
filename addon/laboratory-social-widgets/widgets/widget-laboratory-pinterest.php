@@ -60,11 +60,7 @@ class Laboratory_Widget_Pinterest extends WP_Widget {
 		/* Widget settings. */
 		$widget_ops = array( 'classname' => $this->laboratory_widget_cssclass, 'description' => $this->laboratory_widget_description );
 
-		/* Widget control settings. */
-		$control_ops = array( 'width' => 250, 'height' => 350, 'id_base' => $this->laboratory_widget_idbase );
-
-		/* Create the widget. */
-		$this->WP_Widget( $this->laboratory_widget_idbase, $this->laboratory_widget_title, $widget_ops, $control_ops );
+    parent::__construct(false,$this->laboratory_widget_title,$widget_ops); 
 	} // End Constructor
 
 	/**
@@ -151,7 +147,7 @@ class Laboratory_Widget_Pinterest extends WP_Widget {
 			}
 			if( $instance['show_follow_button'] ){
 			?>
-			<li class="laboratory-pinterest-follow-me"><a href="http://pinterest.com/<?php echo $instance['pinterest_username'];?>/" target="_blank"><strong><?php _e('Follow me on','colabsthemes');?></strong>&nbsp;<img src="<?php echo get_stylesheet_directory_uri().'/images/pinterest.png'; ?>" width="80" height="20" alt="Follow Me on Pinterest" /></a></li>
+			<li class="laboratory-pinterest-follow-me"><a href="http://pinterest.com/<?php echo $instance['pinterest_username'];?>/" target="_blank"><strong><?php _e('Follow me on Pinterest','colabsthemes');?></strong></a></li>
 			<?php
 			}
 			?>		

@@ -201,7 +201,9 @@ class Laboratory_Custom_Menu {
 	function filter_nav_locations($args) {
 
 		global $post;
-
+    
+    if(!is_single())return $args;
+    
 		if( !post_type_supports( get_post_type( $post->ID ), 'laboratory-custom-menus' ) )
 			return $args;
 

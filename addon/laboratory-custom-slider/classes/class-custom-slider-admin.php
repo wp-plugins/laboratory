@@ -304,7 +304,7 @@ class CustomSlider_Admin extends Laboratory_Admin {
 
 				// Single checkbox.
 				case 'checkbox':
-					$checked = checked($args['data']['default'], 'true', false) ;
+					$checked = checked($default, 'true', false) ;
 					$html = '<input type="checkbox" id="' . $args['key'] . '" name="' . $args['key'] . '" class="checkbox checkbox-' . esc_attr( $args['key'] ) . '" value="true"' . $checked . ' /> ' . "\n";
 					echo $html;
 

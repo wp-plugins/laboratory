@@ -278,7 +278,7 @@ class CustomSlider_PostTypes {
 			case 'slide-thumbnail':
 				echo '<a href="' . esc_url( admin_url( add_query_arg( array( 'post' => intval( $id ), 'action' => 'edit' ), 'post.php' ) ) ) . '">' . "\n";
 				if ( has_post_thumbnail( $id ) ) {
-					the_post_thumbnail( array( 75 ) );
+					the_post_thumbnail( array( 75, 75 ) );
 				} else {
 					echo '<img src="' . esc_url( CustomSlider_Utils::get_placeholder_image() ) . '" width="75" />' . "\n";
 				}

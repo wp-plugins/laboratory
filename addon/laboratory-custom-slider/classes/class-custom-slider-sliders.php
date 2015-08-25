@@ -264,10 +264,14 @@ class CustomSlider_Sliders {
 			foreach ( $posts as $k => $post ) {
 				setup_postdata( $post );
 				$content = get_the_content();
-
-				$data = array( 'content' => '<div class="slide-content">' . "\n" . apply_filters( 'laboratory_slideshow_slide_content_slides', $content, $args ) . "\n" . '</div>' . "\n" );
-				if ( $args['thumbnails'] == 'true' ) {
-					$thumb_url = wp_get_attachment_image_src( get_post_thumbnail_id( get_the_ID() ), 'medium' );
+        if ( has_post_thumbnail( get_the_ID() ) ) {
+          $img = get_the_post_thumbnail( get_the_ID(), 'large' );
+        }else{
+          $img = '<img src="'.esc_url( CustomSlider_Utils::get_placeholder_image() ).'" />';
+        }
+				$data = array( 'content' => $img . '<div class="slide-content">' . "\n" . apply_filters( 'laboratory_slideshow_slide_content_slides', $content, $args ) . "\n" . '</div>' . "\n" );
+				if ( has_post_thumbnail( get_the_ID() ) ) {
+					$thumb_url = wp_get_attachment_image_src( get_post_thumbnail_id( get_the_ID() ), 'thumbnail' );
 					if ( ! is_bool( $thumb_url ) && isset( $thumb_url[0] ) ) {
 						$data['attributes'] = array( 'data-thumb' => esc_url( $thumb_url[0] ) );
 					} else {

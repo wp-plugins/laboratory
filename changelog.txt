@@ -1,5 +1,14 @@
 *** Laboratory Changelog ***
 
+2015.8.25 - Version 1.1.0
+- Fix: Mega Menu
+  File Affected: laboratory-megamenu.class.php
+- Fix: Slider
+  Files Affected: class-custom-slider-admin.php, class-custom-slider-sliders.php, class-custom-slider-frontend.php, class-custom-slider-posttypes.php
+- Fix: Deprecated Functions
+  Folders Affected: addon/laboratory-custom-slider/widgets, addon/laboratory-social-widgets/widgets, addon/laboratory-mailchimp-widgets/widgets
+  File Affected: widget-laboratory-tabs.php
+  
 2014.10.17 - Version 1.0.9
 - Fix: Facebook Comment not working properly
   File Affected: addon/laboratory-fbcomments/classes/class-fbcomments-frontend.php

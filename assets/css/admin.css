@@ -421,6 +421,9 @@ html {
 	text-align:right;
 	margin:20px 20px 0 0;
 }
+.laboratory-footer img {
+	width: 200px;
+}
 
 #toplevel_page_laboratory .wp-submenu{
 	z-index: 999!important;

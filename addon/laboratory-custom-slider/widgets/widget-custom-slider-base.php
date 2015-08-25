@@ -47,25 +47,14 @@ class CustomSlider_Widget_Base extends WP_Widget {
 		$this->laboratory_widget_title = __( 'Laboratory Slideshow', 'laboratory' );
 
 		$this->can_show_slideshow = true;
-
-		$this->init();
+    
 	} // End Constructor
+  
+  public function init(){
+    $widget_ops = array( 'classname' => $this->laboratory_widget_cssclass, 'description' => $this->laboratory_widget_description );
 
-	/**
-	 * Initialize the widget.
-	 * @since  1.0.0
-	 * @return void
-	 */
-	protected function init () {
-		/* Widget settings. */
-		$widget_ops = array( 'classname' => $this->laboratory_widget_cssclass, 'description' => $this->laboratory_widget_description );
-
-		/* Widget control settings. */
-		$control_ops = array( 'width' => 250, 'height' => 350, 'id_base' => $this->laboratory_widget_idbase );
-
-		/* Create the widget. */
-		$this->WP_Widget( $this->laboratory_widget_idbase, $this->laboratory_widget_title, $widget_ops, $control_ops );
-	} // End init()
+		parent::__construct(false,$this->laboratory_widget_title,$widget_ops);
+  }
 
 	/**
 	 * widget function.
@@ -315,6 +304,8 @@ class CustomSlider_Widget_Base extends WP_Widget {
 	 */
 	private function generate_field_by_type ( $type, $args, $instance ) {
 		if ( is_array( $args ) && isset( $args['key'] ) && isset( $args['data'] ) ) {
+      $val = (isset($instance[$args['key']])) ? $instance[$args['key']] : '';
+      $html = '';
 			switch ( $type ) {
 				// Select fields.
 				case 'select':
@@ -323,7 +314,7 @@ class CustomSlider_Widget_Base extends WP_Widget {
 					$html = '<select name="' . esc_attr( $this->get_field_name( $args['key'] ) ) . '" id="' . esc_attr( $this->get_field_id( $args['key'] ) ) . '" class="widefat">' . "\n";
 					foreach ( $args['data']['options'] as $k => $v ) {
 
-						$html .= '<option value="' . esc_attr( $k ) . '"' . selected( $k, $instance[$args['key']], false ) . '>' . $v . '</option>' . "\n";
+						$html .= '<option value="' . esc_attr( $k ) . '"' . selected( $k, $val, false ) . '>' . $v . '</option>' . "\n";
 					}
 					$html .= '</select>' . "\n";
 
@@ -333,10 +324,11 @@ class CustomSlider_Widget_Base extends WP_Widget {
 				// Multiple checkboxes.
 				case 'multicheck':
 				if ( isset( $args['data']['options'] ) && ( count( (array)$args['data']['options'] ) > 0 ) ) {
-					$html = '<div class="multicheck-container" style="height: 100px; overflow-y: auto;">' . "\n";
+					$html = '<div class="multicheck-container">' . "\n";
+          $val = (isset($instance[$args['key']])) ? $instance[$args['key']] : array();
 					foreach ( $args['data']['options'] as $k => $v ) {
 						$checked = '';
-						if ( in_array( $k, (array)$instance[$args['key']] ) ) { $checked = ' checked="checked"'; }
+						if ( in_array( $k, (array)$val ) ) { $checked = ' checked="checked"'; }
 						$html .= '<input type="checkbox" name="' . esc_attr( $this->get_field_name( $args['key'] ) ) . '[]" class="multicheck multicheck-' . esc_attr( $args['key'] ) . '" value="' . esc_attr( $k ) . '"' . $checked . ' /> ' . $v . '<br />' . "\n";
 					}
 					$html .= '</div>' . "\n";
@@ -348,7 +340,7 @@ class CustomSlider_Widget_Base extends WP_Widget {
 				// Single checkbox.
 				case 'checkbox':
 				if ( isset( $args['key'] ) && $args['key'] != '' ) {
-					$html .= '<input type="checkbox" name="' . esc_attr( $this->get_field_name( $args['key'] ) ) . '" class="checkbox checkbox-' . esc_attr( $args['key'] ) . '" value="1"' . checked( '1', $instance[$args['key']], false ) . ' /> ' . "\n";
+					$html .= '<input type="checkbox" name="' . esc_attr( $this->get_field_name( $args['key'] ) ) . '" class="checkbox checkbox-' . esc_attr( $args['key'] ) . '" value="1"' . checked( '1', $val, false ) . ' /> ' . "\n";
 					echo $html;
 				}
 
@@ -357,7 +349,7 @@ class CustomSlider_Widget_Base extends WP_Widget {
 				// Text input.
 				case 'text':
 				if ( isset( $args['key'] ) && $args['key'] != '' ) {
-					$html .= '<input type="text" name="' . esc_attr( $this->get_field_name( $args['key'] ) ) . '" class="input-text input-text-' . esc_attr( $args['key'] ) . ' widefat" value="' . esc_attr( $instance[$args['key']] ) . '" /> ' . "\n";
+					$html .= '<input type="text" name="' . esc_attr( $this->get_field_name( $args['key'] ) ) . '" class="input-text input-text-' . esc_attr( $args['key'] ) . ' widefat" value="' . esc_attr( $val ) . '" /> ' . "\n";
 					echo $html;
 				}
 

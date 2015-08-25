@@ -31,8 +31,8 @@ class CustomSlider_Widget_Posts extends CustomSlider_Widget_Base {
 		$this->laboratory_widget_description = __( 'A slideshow of posts on your site', 'laboratory' );
 		$this->laboratory_widget_idbase = 'laboratory_slideshow_slideshow_posts';
 		$this->laboratory_widget_title = __('Laboratory Posts Slide', 'laboratory' );
-
-		$this->init();
+    
+    $this->init();
 
 		$this->defaults = array(
 						'title' => __( 'Posts', 'laboratory' )
