@@ -1,0 +1,43 @@
+*** Laboratory Changelog ***
+
+2014.10.17 - Version 1.0.9
+- Fix: Facebook Comment not working properly
+  File Affected: addon/laboratory-fbcomments/classes/class-fbcomments-frontend.php
+- Fix: Facebook Comment shortcode on Content and Text Widget not working
+  File Affected: addon/laboratory-fbcomments/classes/class-fbcomments-frontend.php
+
+2014.05.16 - version 1.0.8
+- Removed unused plugin-updater reference from .po and .mo files
+- Fix file name "laboratory-en_EN"
+- Remove unused plugin updater class
+  File Removed: class-laboratory-plugin-updater.php, laboratory-en_EN.mo, laboratory-en_EN.po
+
+2014.05.09 - version 1.0.7
+- Fix conflicting menu. 
+  File Affected: main.php, admin.class.php
+
+2014.04.04 - version 1.0.6
+- Update Plugin Style
+
+2013.10.03 - version 1.0.5
+- Add: Datepicker to Custom Contact Form
+  File Affected: date.php
+- Fix: Bugs Fixed
+  Files Affected: index.php, main.php, admin.class.php
+
+2013.09.09 - version 1.0.4
+- Update Dashboard Style
+- Fix Bug admin.css
+  File Affected: admin-class.php
+
+2013.08.26 - version 1.0.3
+- added Mailchimp widget add-on
+
+2013.08.15 - version 1.0.2
+- added Contact forms add-on
+
+2013.01.15 - version 1.0.1
+- added Facebook Comments add-on
+
+2012.09.21 - version 1.0.0
+- First release!
